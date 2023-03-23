@@ -16,5 +16,12 @@
       "providerPlugin": "awscloudformation",
       "service": "AppSync"
     }
+  },
+  "function": {
+    "ContactForm": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
   }
 }
