@@ -1,5 +1,6 @@
 import boto3
 
+
 def Handler(event, context):
     ses = boto3.client('ses', region_name='ap-northeast-1')
     adminadress = 'istoneyou1205@gmail.com'
