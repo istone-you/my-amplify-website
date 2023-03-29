@@ -1,23 +1,15 @@
 {
-  "dev": {
+  "master": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-myamplifywebsite-dev-83220-authRole",
-      "UnauthRoleArn": "arn:aws:iam::763397213391:role/amplify-myamplifywebsite-dev-83220-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::763397213391:role/amplify-myamplifywebsite-dev-83220-authRole",
+      "AuthRoleName": "amplify-myamplifywebsite-master-90455-authRole",
+      "UnauthRoleArn": "arn:aws:iam::827621781261:role/amplify-myamplifywebsite-master-90455-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::827621781261:role/amplify-myamplifywebsite-master-90455-authRole",
       "Region": "ap-northeast-1",
-      "DeploymentBucketName": "amplify-myamplifywebsite-dev-83220-deployment",
-      "UnauthRoleName": "amplify-myamplifywebsite-dev-83220-unauthRole",
-      "StackName": "amplify-myamplifywebsite-dev-83220",
-      "StackId": "arn:aws:cloudformation:ap-northeast-1:763397213391:stack/amplify-myamplifywebsite-dev-83220/3a52a010-c955-11ed-9d6d-0ed8f2c77813",
-      "AmplifyAppId": "d389zbbkgl84vu"
-    },
-    "categories": {
-      "function": {
-        "ContactForm": {
-          "deploymentBucketName": "amplify-myamplifywebsite-dev-83220-deployment",
-          "s3Key": "amplify-builds/ContactForm-4e5767322b426e4f5962-build.zip"
-        }
-      }
+      "DeploymentBucketName": "amplify-myamplifywebsite-master-90455-deployment",
+      "UnauthRoleName": "amplify-myamplifywebsite-master-90455-unauthRole",
+      "StackName": "amplify-myamplifywebsite-master-90455",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:827621781261:stack/amplify-myamplifywebsite-master-90455/c63a46e0-ce10-11ed-beae-06ce95b246dd",
+      "AmplifyAppId": "d3533qebtinuv2"
     }
   }
 }
