@@ -15,7 +15,7 @@ const config: GatsbyConfig = {
     siteDescription: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
     siteImage: `/banner.jpg`,
     siteLanguage: `en`,
-    author: `@lekoarts_de`,
+    author: `iStone`,
   },
   trailingSlash: `never`,
   plugins: [
