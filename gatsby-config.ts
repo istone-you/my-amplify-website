@@ -58,6 +58,14 @@ const config: GatsbyConfig = {
         openAnalyzer: false,
       },
     },
+    `gatsby-plugin-mdx`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `src/pages`,
+        name: `pages`
+      }
+    },
   ].filter(Boolean) as Array<PluginRef>,
 }
 

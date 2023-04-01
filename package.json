@@ -17,12 +17,16 @@
   },
   "dependencies": {
     "@lekoarts/gatsby-theme-cara": "^5.0.5",
+    "@mdx-js/react": "^2.3.0",
     "aws-amplify": "^5.0.22",
     "gatsby": "^5.5.0",
     "gatsby-plugin-manifest": "^5.5.0",
+    "gatsby-plugin-mdx": "^5.8.0",
     "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.30",
+    "gatsby-source-filesystem": "^5.8.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-table": "^7.8.0"
   },
   "devDependencies": {
     "@types/node": "^18.11.18",
