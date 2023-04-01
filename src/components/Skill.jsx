@@ -21,15 +21,15 @@ const Skill = () => {
     return (
         <div style={{ margin: "0 auto", textAlign: "center", overflowWrap: "normal", width: width }}>
             <h1>Skill</h1>
-            <p>業務で扱ったことのある技術スキルです。特に得意なスキルは太文字にしています。</p>
+            <p>業務で扱ったことのある技術スキルです。特に得意なスキルは星マークを付けています。</p>
             <div style={{ display: 'flex', flexWrap: 'wrap', paddingTop: "50px" }}>
                 <div style={{ flex: '1 0 25%', textAlign: 'center' }}>
                     <img src={LinuxImg} height="100px" />
-                    <p><b>Linux</b></p>
+                    <p><b>Linux☆</b></p>
                 </div>
                 <div style={{ flex: '1 0 25%', textAlign: 'center' }}>
                     <img src={AWSImg} height="100px" />
-                    <p><b>AWS</b></p>
+                    <p><b>AWS☆</b></p>
                 </div>
                 <div style={{ flex: '1 0 25%', textAlign: 'center' }}>
                     <img src={JavaScriptImg} height="100px" />
@@ -49,7 +49,7 @@ const Skill = () => {
                 </div>
                 <div style={{ flex: '1 0 25%', textAlign: 'center' }}>
                     <img src={TerraformImg} height="100px" />
-                    <p><b>Terraform</b></p>
+                    <p><b>Terraform☆</b></p>
                 </div>
                 <div style={{ flex: '1 0 25%', textAlign: 'center' }}>
                     <img src={AnsibleImg} height="100px" />
@@ -57,15 +57,15 @@ const Skill = () => {
                 </div>
                 <div style={{ flex: '1 0 25%', textAlign: 'center' }}>
                     <img src={GrafanaImg} height="100px" />
-                    <p><b>Grafana</b></p>
+                    <p><b>Grafana☆</b></p>
                 </div>
                 <div style={{ flex: '1 0 25%', textAlign: 'center' }}>
                     <img src={PrometheusImg} height="100px" />
-                    <p><b>Prometheus</b></p>
+                    <p><b>Prometheus☆</b></p>
                 </div>
                 <div style={{ flex: '1 0 25%', textAlign: 'center' }}>
                     <img src={FluentdImg} height="100px" />
-                    <p>Fluentd</p>
+                    <p><b>Fluentd☆</b></p>
                 </div>
                 <div style={{ flex: '1 0 25%', textAlign: 'center' }}>
                     <img src={OpenSearchImg} height="100px" />

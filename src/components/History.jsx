@@ -39,7 +39,7 @@ const History = () => {
                         【ポイント】<br />
                         社内にAWSに詳しい人がおらず、上司や開発グループからの要望をもとに一人で設計・構築しているため、AWSやOSSの幅広いサービスの深い知識を習得できた<br />
                         こちらの構成を紹介した記事が、はてなブックマークやQiitaでトレンド1位を獲得できた<br />
-                        https://qiita.com/iStone/items/72417fe599e71e62f631<br />
+                        <a href="https://qiita.com/iStone/items/72417fe599e71e62f631" alt="【AWS】ぼくのかんがえたさいきょうの運用・監視構成" target="_blank" rel="noreferrer noopener">【AWS】ぼくのかんがえたさいきょうの運用・監視構成</a><br />
                     </li>
                     <li>
                         <h3>◯社内の管理ツール開発</h3>
