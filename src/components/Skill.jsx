@@ -1,4 +1,5 @@
 import React from 'react'
+import useMedia from 'use-media'
 import LinuxImg from '../images/Linux.png'
 import AWSImg from '../images/AWS.jpg'
 import DockerImg from '../images/Docker.png'
@@ -15,9 +16,12 @@ import PostgreSQLImg from '../images/PostgreSQL.png'
 import MongoDBImg from '../images/MongoDB.png'
 
 const Skill = () => {
+    const isWide = useMedia({ minWidth: '768px' })
+    const width = isWide ? '40%' : '90%'
     return (
-        <div style={{ margin: "0 auto", textAlign: "center", overflowWrap: "normal" }}>
+        <div style={{ margin: "0 auto", textAlign: "center", overflowWrap: "normal", width: width }}>
             <h1>Skill</h1>
+            <p>業務で扱ったことのある技術スキルです。特に得意なスキルは太文字にしています。</p>
             <div style={{ display: 'flex', flexWrap: 'wrap', paddingTop: "50px" }}>
                 <div style={{ flex: '1 0 25%', textAlign: 'center' }}>
                     <img src={LinuxImg} height="100px" />

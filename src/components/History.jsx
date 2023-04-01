@@ -58,7 +58,6 @@ const History = () => {
                         <br />
                         【概要】<br />
                         他社のホームページ制作。<br />
-                        https://solatasu.jp<br />
                         <br /><br />
                         【詳細】<br />
                         S3とCloudFrontを利用した静的Webサイトの構築<br />
