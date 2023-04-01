@@ -3456,6 +3456,48 @@ const CareerTable = () => {
                             <td width={29} style={{ width: "22pt" }} />
                             <td width={29} style={{ width: "22pt" }} />
                         </tr>
+                        <tr
+                            height={24}
+                            style={{ msoHeightSource: "userset", height: "18.5pt" }}
+                        >
+                            <td height={24} className="xl66" style={{ height: "18.5pt" }}>
+
+                            </td>
+                            <td className="xl66">　</td>
+                            <td className="xl66">　</td>
+                            <td className="xl66">　</td>
+                            <td className="xl66">　</td>
+                            <td className="xl66">　</td>
+                            <td className="xl66">　</td>
+                            <td className="xl66">　</td>
+                            <td className="xl66">　</td>
+                            <td className="xl66">　</td>
+                            <td className="xl66">　</td>
+                            <td className="xl66">　</td>
+                            <td className="xl66">　</td>
+                            <td className="xl66">　</td>
+                        </tr>
+                        <tr
+                            height={24}
+                            style={{ msoHeightSource: "userset", height: "18.5pt" }}
+                        >
+                            <td height={24} className="xl66" style={{ height: "18.5pt" }}>
+
+                            </td>
+                            <td className="xl66">　</td>
+                            <td className="xl66">　</td>
+                            <td className="xl66">　</td>
+                            <td className="xl66">　</td>
+                            <td className="xl66">　</td>
+                            <td className="xl66">　</td>
+                            <td className="xl66">　</td>
+                            <td className="xl66">　</td>
+                            <td className="xl66">　</td>
+                            <td className="xl66">　</td>
+                            <td className="xl66">　</td>
+                            <td className="xl66">　</td>
+                            <td className="xl66">　</td>
+                        </tr>
                         {/*[endif]*/}
                     </tbody>
                 </table>
