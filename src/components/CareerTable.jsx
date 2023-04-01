@@ -93,7 +93,7 @@ const CareerTable = () => {
 
                             </td>
                             <td className="xl66" width={77} style={{ width: "58pt" }}>
-                                Excelをそのまま出力しているのでスマホだと見づらいです。ごめんなさい。
+                                即席でExcelをそのまま出力しているのでスマホだと見づらいです。すみません。後々修正します。
                             </td>
                             <td className="xl66" width={69} style={{ width: "52pt" }}>
 
