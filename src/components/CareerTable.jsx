@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Test = () => {
+const CareerTable = () => {
     return (
         <div style={{ backgroundColor: 'white' }}>
             <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
@@ -93,7 +93,7 @@ const Test = () => {
 
                             </td>
                             <td className="xl66" width={77} style={{ width: "58pt" }}>
-
+                                Excelをそのまま出力しているのでスマホだと見づらいです。ごめんなさい。
                             </td>
                             <td className="xl66" width={69} style={{ width: "52pt" }}>
 
@@ -3470,4 +3470,4 @@ const Test = () => {
     )
 }
 
-export default Test
+export default CareerTable
