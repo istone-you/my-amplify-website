@@ -53,7 +53,7 @@ import WorkMail from '../../images/AWS/WorkMail.png';
 import XRay from '../../images/AWS/X-Ray.png';
 
 
-const SkillIcon = ({ imgSrc, alt, text, isStar }) => {
+const SkillIcon = ({ imgSrc, text, isStar }) => {
     const iconStyle = { flex: '1 0 25%', textAlign: 'center' }
     return (
         <div style={iconStyle}>
