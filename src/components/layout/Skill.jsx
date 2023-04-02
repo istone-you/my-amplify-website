@@ -28,7 +28,7 @@ const Skill = () => {
     return (
         <div>
             <h1>Skill</h1>
-            <button
+            {/* <button
                 onClick={handleClick}
                 onMouseEnter={() => setBackgroundColor("#f56500")}
                 onMouseLeave={() => setBackgroundColor("#eb6100")}
@@ -42,8 +42,52 @@ const Skill = () => {
             >
                 <b>{isAll ? "AWSサービスはこちら" : "戻る"}</b>
             </button>
+            <br /> */}
+            <div style={{ display: 'flex' }}>
+                <div
+                    onClick={() => setIsAll(true)}
+                    onKeyDown={(e) => {
+                        if (e.key === "Enter" || e.key === " ") {
+                            setIsAll(true);
+                        }
+                    }}
+                    style={{
+                        width: "50%",
+                        pointerEvents: isAll ? "none" : "",
+                        background: isAll ? "" : "transparent",
+                        cursor: isAll ? "default" : "pointer",
+                        border: "none",
+                        role: "button",
+                        tabIndex: 0,
+                        backgroundColor: isAll ? "#eb6100" : "",
+                        borderBottom: isAll ? "none" : "1px solid #eb6100",
+                    }}
+                >
+                    <b>All</b>
+                </div>
+                <div
+                    onClick={() => setIsAll(false)}
+                    onKeyDown={(e) => {
+                        if (e.key === "Enter" || e.key === " ") {
+                            setIsAll(false);
+                        }
+                    }}
+                    style={{
+                        width: "50%",
+                        pointerEvents: isAll ? "" : "none",
+                        background: isAll ? "transparent" : "",
+                        cursor: isAll ? "pointer" : "default",
+                        border: "none",
+                        role: "button",
+                        tabIndex: 0,
+                        backgroundColor: isAll ? "" : "#eb6100",
+                        borderBottom: isAll ? "1px solid #eb6100" : "none",
+                    }}
+                >
+                    <b>AWS</b>
+                </div>
+            </div>
             <div className={animationClass}>{isAll ? <All /> : <Aws />}</div>
-
         </div>
     )
 }

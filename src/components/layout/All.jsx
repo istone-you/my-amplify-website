@@ -24,7 +24,7 @@ const SkillIcon = ({ imgSrc, text, isStar, padding }) => {
     return (
         <div style={iconStyle}>
             <img src={imgSrc} height="100px" alt={text} style={{ padding: padding ? "15px" : "10px" }} />
-            {isStar ? <p><b>{text}☆</b></p> : <p>{text}</p>}
+            {isStar ? <p><b>{text}</b></p> : <p>{text}</p>}
         </div>
     )
 }
@@ -32,7 +32,7 @@ const SkillIcon = ({ imgSrc, text, isStar, padding }) => {
 const All = () => {
     return (
         <div>
-            <p>業務で扱ったことのある主な技術スキルです。特に得意なスキルは星マークを付けています。</p>
+            <p>業務で扱ったことのある主な技術スキルです。特に得意なスキルは太字にしています。</p>
             <div style={{ display: 'flex', flexWrap: 'wrap', paddingTop: "50px" }}>
                 <SkillIcon imgSrc={LinuxImg} text="Linux" isStar />
                 <SkillIcon imgSrc={WindowsImg} text="Windows" />
@@ -47,7 +47,7 @@ const All = () => {
                 <SkillIcon imgSrc={GrafanaImg} text="Grafana" isStar />
                 <SkillIcon imgSrc={PrometheusImg} text="Prometheus" isStar />
                 <SkillIcon imgSrc={FluentdImg} text="Fluentd" isStar padding="5px" />
-                <SkillIcon imgSrc={OpenTelemetryImg} text="OpenTelemetry" />
+                <SkillIcon imgSrc={OpenTelemetryImg} text="OpenTelemetry" isStar />
                 <SkillIcon imgSrc={OpenSearchImg} text="OpenSearch" />
                 <SkillIcon imgSrc={FalcoImg} text="Falco" />
                 <SkillIcon imgSrc={PostgreSQLImg} text="PostgreSQL" />
