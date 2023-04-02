@@ -4,7 +4,7 @@ import History from '../layout/History';
 
 const Career = () => {
     return (
-        <div style={{ textAlign: "center" }}>
+        <div style={{ textAlign: "center", fontFamily: "Noto Sans JP" }}>
             <div>
                 <p style={{ fontSize: "50px" }}>Career</p>
             </div>
