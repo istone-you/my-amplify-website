@@ -2,6 +2,7 @@ import React from 'react'
 import useMedia from 'use-media'
 
 const History = () => {
+
     const isWide = useMedia({ minWidth: '768px' })
     const width = isWide ? '40%' : '90%'
     return (

@@ -4,7 +4,7 @@
 
 .fade-enter-active {
   opacity: 1;
-  transition: all 0.5s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 .fade-exit {
@@ -13,5 +13,14 @@
 
 .fade-exit-active {
   opacity: 0;
-  transition: all 0.5s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.App {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+.App.loaded {
+  opacity: 1;
 }

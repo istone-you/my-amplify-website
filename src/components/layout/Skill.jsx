@@ -9,12 +9,11 @@ import '../styles/fade.css';
 const Skill = () => {
     const [isAll, setIsAll] = useState(true);
     const [animationClass, setAnimationClass] = useState("fade-enter");
+    const [backgroundColor, setBackgroundColor] = useState("#eb6100");
 
     const handleClick = () => {
         setIsAll(!isAll);
     };
-
-    const [backgroundColor, setBackgroundColor] = useState("#eb6100");
 
     useEffect(() => {
         setAnimationClass("fade-enter");
@@ -40,10 +39,12 @@ const Skill = () => {
                 style={{
                     color: "#fff",
                     backgroundColor: backgroundColor,
-                    borderRadius: '100vh'
+                    borderRadius: '100vh',
+                    border: "none",
+                    padding: "10px 20px",
                 }}
             >
-                <b>{isAll ? "AWSサービス" : "戻る"}</b>
+                <b>{isAll ? "AWSサービスはこちら" : "戻る"}</b>
             </button>
             <div className={animationClass}>{isAll ? <All /> : <Aws />}</div>
 
