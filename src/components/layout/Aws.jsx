@@ -57,7 +57,7 @@ const SkillIcon = ({ imgSrc, alt, text, isStar }) => {
     const iconStyle = { flex: '1 0 25%', textAlign: 'center' }
     return (
         <div style={iconStyle}>
-            <img src={imgSrc} height="100px" alt={alt} />
+            <img src={imgSrc} height="100px" alt={text} />
             {isStar ? <p><b>{text}☆</b></p> : <p>{text}</p>}
         </div>
     )
@@ -65,63 +65,63 @@ const SkillIcon = ({ imgSrc, alt, text, isStar }) => {
 
 const Aws = () => {
     return (
-        <>
+        <div>
             <p>業務で扱ったことのある主なAWSサービスです。</p>
             <div style={{ display: 'flex', flexWrap: 'wrap', paddingTop: "50px" }}>
-                <SkillIcon imgSrc={VPC} alt="VPC" text="VPC" />
-                <SkillIcon imgSrc={ELB} alt="ELB" text="ELB" />
-                <SkillIcon imgSrc={Route53} alt="Route53" text="Route53" />
-                <SkillIcon imgSrc={CloudFront} alt="CloudFront" text="CloudFront" />
-                <SkillIcon imgSrc={DirectConnect} alt="DirectConnect" text="DirectConnect" />
-                <SkillIcon imgSrc={TransitGateway} alt="TransitGateway" text="TransitGateway" />
-                <SkillIcon imgSrc={EC2} alt="EC2" text="EC2" />
-                <SkillIcon imgSrc={AutoScaling} alt="Auto Scaling" text="Auto Scaling" />
-                <SkillIcon imgSrc={Lambda} alt="Lambda" text="Lambda" />
-                <SkillIcon imgSrc={ECS} alt="ECS" text="ECS" />
-                <SkillIcon imgSrc={Fargate} alt="Fargate" text="Fargate" />
-                <SkillIcon imgSrc={ECR} alt="ECR" text="ECR" />
-                <SkillIcon imgSrc={ComputeOptimizer} alt="Compute Optimizer" text="Compute Optimizer" />
-                <SkillIcon imgSrc={RDS} alt="RDS" text="RDS" />
-                <SkillIcon imgSrc={DynamoDB} alt="DynamoDB" text="DynamoDB" />
-                <SkillIcon imgSrc={EBS} alt="EBS" text="EBS" />
-                <SkillIcon imgSrc={S3} alt="S3" text="S3" />
-                <SkillIcon imgSrc={FSx} alt="FSx" text="FSx" />
-                <SkillIcon imgSrc={Backup} alt="Backup" text="Backup" />
-                <SkillIcon imgSrc={IAM} alt="IAM" text="IAM" />
-                <SkillIcon imgSrc={ACM} alt="ACM" text="ACM" />
-                <SkillIcon imgSrc={Cognito} alt="Cognito" text="Cognito" />
-                <SkillIcon imgSrc={SSO} alt="IAM Identity Center" text="IAM Identity Center" />
-                <SkillIcon imgSrc={KMS} alt="KMS" text="KMS" />
-                <SkillIcon imgSrc={SM} alt="Secrets Manager" text="Secrets Manager" />
-                <SkillIcon imgSrc={FM} alt="Firewall Manager" text="Firewall Manager" />
-                <SkillIcon imgSrc={Inspector} alt="Inspector" text="Inspector" />
-                <SkillIcon imgSrc={DS} alt="Directory Service" text="Directory Service" />
-                <SkillIcon imgSrc={GuardDuty} alt="GuardDuty" text="GuardDuty" />
-                <SkillIcon imgSrc={SecurityHub} alt="SecurityHub" text="SecurityHub" />
-                <SkillIcon imgSrc={Shield} alt="Shield" text="Shield" />
-                <SkillIcon imgSrc={CloudTrail} alt="CloudTrail" text="CloudTrail" />
-                <SkillIcon imgSrc={CloudWatch} alt="CloudWatch" text="CloudWatch" />
-                <SkillIcon imgSrc={Config} alt="Config" text="Config" />
-                <SkillIcon imgSrc={CFn} alt="CloudFormation" text="CloudFormation" />
-                <SkillIcon imgSrc={TrustedAdvisor} alt="TrustedAdvisor" text="TrustedAdvisor" />
-                <SkillIcon imgSrc={SSM} alt="SSM" text="SSM" />
-                <SkillIcon imgSrc={SNS} alt="SNS" text="SNS" />
-                <SkillIcon imgSrc={EventBridge} alt="EventBridge" text="EventBridge" />
-                <SkillIcon imgSrc={APIGateway} alt="APIGateway" text="APIGateway" />
-                <SkillIcon imgSrc={Cloud9} alt="Cloud9" text="Cloud9" />
-                <SkillIcon imgSrc={CodeBuild} alt="CodeBuild" text="CodeBuild" />
-                <SkillIcon imgSrc={CodeCommit} alt="CodeCommit" text="CodeCommit" />
-                <SkillIcon imgSrc={CodeDeploy} alt="CodeDeploy" text="CodeDeploy" />
-                <SkillIcon imgSrc={CodePipeline} alt="CodePipeline" text="CodePipeline" />
-                <SkillIcon imgSrc={XRay} alt="X-Ray" text="X-Ray" />
-                <SkillIcon imgSrc={Athena} alt="Athena" text="Athena" />
-                <SkillIcon imgSrc={Glue} alt="Glue" text="Glue" />
-                <SkillIcon imgSrc={OpenSearch} alt="OpenSearch" text="OpenSearch" />
-                <SkillIcon imgSrc={DataFirehose} alt="DataFirehose" text="DataFirehose" />
-                <SkillIcon imgSrc={Amplify} alt="Amplify" text="Amplify" />
-                <SkillIcon imgSrc={WorkMail} alt="WorkMail" text="WorkMail" />
+                <SkillIcon imgSrc={VPC} text="VPC" />
+                <SkillIcon imgSrc={ELB} text="ELB" />
+                <SkillIcon imgSrc={Route53} text="Route53" />
+                <SkillIcon imgSrc={CloudFront} text="CloudFront" />
+                <SkillIcon imgSrc={DirectConnect} text="DirectConnect" />
+                <SkillIcon imgSrc={TransitGateway} text="TransitGateway" />
+                <SkillIcon imgSrc={EC2} text="EC2" />
+                <SkillIcon imgSrc={AutoScaling} text="Auto Scaling" />
+                <SkillIcon imgSrc={Lambda} text="Lambda" />
+                <SkillIcon imgSrc={ECS} text="ECS" />
+                <SkillIcon imgSrc={Fargate} text="Fargate" />
+                <SkillIcon imgSrc={ECR} text="ECR" />
+                <SkillIcon imgSrc={ComputeOptimizer} text="Compute Optimizer" />
+                <SkillIcon imgSrc={RDS} text="RDS" />
+                <SkillIcon imgSrc={DynamoDB} text="DynamoDB" />
+                <SkillIcon imgSrc={EBS} text="EBS" />
+                <SkillIcon imgSrc={S3} text="S3" />
+                <SkillIcon imgSrc={FSx} text="FSx" />
+                <SkillIcon imgSrc={Backup} text="Backup" />
+                <SkillIcon imgSrc={IAM} text="IAM" />
+                <SkillIcon imgSrc={ACM} text="ACM" />
+                <SkillIcon imgSrc={Cognito} text="Cognito" />
+                <SkillIcon imgSrc={SSO} text="IAM Identity Center" />
+                <SkillIcon imgSrc={KMS} text="KMS" />
+                <SkillIcon imgSrc={SM} text="Secrets Manager" />
+                <SkillIcon imgSrc={FM} text="Firewall Manager" />
+                <SkillIcon imgSrc={Inspector} text="Inspector" />
+                <SkillIcon imgSrc={DS} text="Directory Service" />
+                <SkillIcon imgSrc={GuardDuty} text="GuardDuty" />
+                <SkillIcon imgSrc={SecurityHub} text="SecurityHub" />
+                <SkillIcon imgSrc={Shield} text="Shield" />
+                <SkillIcon imgSrc={CloudTrail} text="CloudTrail" />
+                <SkillIcon imgSrc={CloudWatch} text="CloudWatch" />
+                <SkillIcon imgSrc={Config} text="Config" />
+                <SkillIcon imgSrc={CFn} text="CloudFormation" />
+                <SkillIcon imgSrc={TrustedAdvisor} text="TrustedAdvisor" />
+                <SkillIcon imgSrc={SSM} text="SSM" />
+                <SkillIcon imgSrc={SNS} text="SNS" />
+                <SkillIcon imgSrc={EventBridge} text="EventBridge" />
+                <SkillIcon imgSrc={APIGateway} text="APIGateway" />
+                <SkillIcon imgSrc={Cloud9} text="Cloud9" />
+                <SkillIcon imgSrc={CodeBuild} text="CodeBuild" />
+                <SkillIcon imgSrc={CodeCommit} text="CodeCommit" />
+                <SkillIcon imgSrc={CodeDeploy} text="CodeDeploy" />
+                <SkillIcon imgSrc={CodePipeline} text="CodePipeline" />
+                <SkillIcon imgSrc={XRay} text="X-Ray" />
+                <SkillIcon imgSrc={Athena} text="Athena" />
+                <SkillIcon imgSrc={Glue} text="Glue" />
+                <SkillIcon imgSrc={OpenSearch} text="OpenSearch" />
+                <SkillIcon imgSrc={DataFirehose} text="DataFirehose" />
+                <SkillIcon imgSrc={Amplify} text="Amplify" />
+                <SkillIcon imgSrc={WorkMail} text="WorkMail" />
             </div>
-        </>
+        </div>
     )
 }
 

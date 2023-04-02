@@ -29,7 +29,7 @@ const SkillIcon = ({ imgSrc, alt, text, isStar }) => {
 
 const All = () => {
     return (
-        <>
+        <div>
             <p>業務で扱ったことのある主な技術スキルです。特に得意なスキルは星マークを付けています。</p>
             <div style={{ display: 'flex', flexWrap: 'wrap', paddingTop: "50px" }}>
                 <SkillIcon imgSrc={LinuxImg} alt="Linux" text="Linux" isStar />
@@ -53,7 +53,7 @@ const All = () => {
             <div style={{ display: 'flex', flexWrap: 'wrap', paddingTop: "50px" }}>
                 <SkillIcon imgSrc={KubernetesImg} alt="Kubernetes" text="Kubernetes" />
             </div>
-        </>
+        </div>
     )
 }
 

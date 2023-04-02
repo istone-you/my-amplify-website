@@ -26,7 +26,6 @@
     "gatsby-source-filesystem": "^5.8.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.10.0",
     "react-table": "^7.8.0",
     "use-media": "^1.4.0"
   },
