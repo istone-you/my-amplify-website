@@ -1,5 +1,6 @@
 import React from 'react'
 import useMedia from 'use-media'
+import { Link } from 'gatsby'
 import LinuxImg from '../../images/Linux.png'
 import AWSImg from '../../images/AWS.jpg'
 import DockerImg from '../../images/Docker.png'
@@ -25,7 +26,7 @@ const Skill = () => {
     return (
         <div style={{ margin: "0 auto", overflowWrap: "normal", width: width }}>
             <h1>Skill</h1>
-            <p>業務で扱ったことのある主な技術スキルです。特に得意なスキルは星マークを付けています。<br/>AWSのサービスについては<a href="../aws">こちら</a></p>
+            <p>業務で扱ったことのある主な技術スキルです。特に得意なスキルは星マークを付けています。<br/>AWSのサービスについては<Link to="/aws">こちら</Link></p>
             <div style={{ display: 'flex', flexWrap: 'wrap', paddingTop: "50px" }}>
                 <div style={iconStyle}>
                     <img src={LinuxImg} height="100px" />
