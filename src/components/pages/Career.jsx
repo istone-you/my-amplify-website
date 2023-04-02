@@ -18,7 +18,7 @@ const Career = () => {
     const width = isWide ? '40%' : '90%'
 
     return (
-        <div className={`App ${isLoaded ? "loaded" : ""}`} style={{ textAlign: "center", width: width, margin: "0 auto", overflowWrap: "normal" }}>
+        <div className={`App ${isLoaded ? "loaded" : ""}`} style={{ textAlign: "center", width: width, margin: "0 auto", overflowWrap: "normal", fontFamily: "ヒラギノ角ゴシック" }}>
             <div>
                 <p style={{ fontSize: "50px" }}>Career</p>
             </div>

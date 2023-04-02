@@ -23,7 +23,7 @@ const SkillIcon = ({ imgSrc, text, isStar, padding }) => {
     const iconStyle = { flex: '1 0 25%', textAlign: 'center' }
     return (
         <div style={iconStyle}>
-            <img src={imgSrc} height="100px" alt={text} style={{ padding: padding }} />
+            <img src={imgSrc} height="100px" alt={text} style={{ padding: padding ? "15px" : "10px" }} />
             {isStar ? <p><b>{text}☆</b></p> : <p>{text}</p>}
         </div>
     )
@@ -36,7 +36,7 @@ const All = () => {
             <div style={{ display: 'flex', flexWrap: 'wrap', paddingTop: "50px" }}>
                 <SkillIcon imgSrc={LinuxImg} text="Linux" isStar />
                 <SkillIcon imgSrc={WindowsImg} text="Windows" />
-                <SkillIcon imgSrc={ApacheImg} text="Apache" />
+                <SkillIcon imgSrc={ApacheImg} text="Apache" isStar />
                 <SkillIcon imgSrc={AWSImg} text="AWS" isStar />
                 <SkillIcon imgSrc={JavaScriptImg} text="JavaScript" />
                 <SkillIcon imgSrc={ReactImg} text="React" />

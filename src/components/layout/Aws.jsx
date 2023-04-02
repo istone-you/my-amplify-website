@@ -57,7 +57,7 @@ const SkillIcon = ({ imgSrc, text, isStar }) => {
     const iconStyle = { flex: '1 0 25%', textAlign: 'center' }
     return (
         <div style={iconStyle}>
-            <img src={imgSrc} height="100px" alt={text} />
+            <img src={imgSrc} height="100px" alt={text} style={{ padding: "10px" }} />
             {isStar ? <p><b>{text}☆</b></p> : <p>{text}</p>}
         </div>
     )
