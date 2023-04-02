@@ -6,6 +6,8 @@ import History from '../layout/History';
 import '../styles/fade.css';
 
 const Career = () => {
+    const color = "#eb6100"
+
     const [isLoaded, setIsLoaded] = useState(false);
 
     useEffect(() => {
@@ -22,9 +24,9 @@ const Career = () => {
             <div>
                 <p style={{ fontSize: "50px" }}><b>Career</b></p>
             </div>
-            <History />
+            <History color={color} />
             <br />
-            <Skill />
+            <Skill color={color} />
             <br />
         </div>
     )

@@ -5,7 +5,7 @@ import Aws from './Aws';
 import '../styles/fade.css';
 
 
-const Skill = () => {
+const Skill = (props) => {
     const [isAll, setIsAll] = useState(true);
     const [animationClass, setAnimationClass] = useState("fade-enter");
 
@@ -39,8 +39,8 @@ const Skill = () => {
                         background: isAll ? "" : "transparent",
                         cursor: isAll ? "default" : "pointer",
                         border: "none",
-                        backgroundColor: isAll ? "#eb6100" : "",
-                        borderBottom: isAll ? "none" : "1px solid #eb6100",
+                        backgroundColor: isAll ? props.color : "",
+                        borderBottom: isAll ? "none" : `1px solid ${props.color}`,
                     }}
                 >
                     <b>All</b>
@@ -60,8 +60,8 @@ const Skill = () => {
                         background: isAll ? "transparent" : "",
                         cursor: isAll ? "pointer" : "default",
                         border: "none",
-                        backgroundColor: isAll ? "" : "#eb6100",
-                        borderBottom: isAll ? "1px solid #eb6100" : "none",
+                        backgroundColor: isAll ? "" : props.color,
+                        borderBottom: isAll ? `1px solid ${props.color}` : "none",
                     }}
                 >
                     <b>AWS</b>

@@ -1,10 +1,18 @@
 import React from 'react'
 
 const Project = (props) => {
+    const ulStyle = {
+        padding: 0,
+        fontSize: '14px',
+        lineHeight: 1.6,
+        fontFamily: 'ヒラギノ角ゴシック, sans-serif',
+        listStyle: 'none'
+    };
+
     return (
-        <div className="animate__animated animate__fadeInUp">
+        <div>
             <h3>{props.title}</h3>
-            <ul>
+            <ul style={ulStyle}>
                 {props.detail}
             </ul>
         </div>

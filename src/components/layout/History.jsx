@@ -1,10 +1,19 @@
 import React from 'react'
 import Project from '../common/Project';
-import '../styles/list.css';
 import '../styles/fade.css';
 import 'animate.css';
 
-const History = () => {
+const History = (props) => {
+
+    const liStyle = {
+        position: "relative",
+        padding: "7px 5px 7px 10px",
+        marginBottom: "5px",
+        borderLeft: `solid 2px ${props.color}`,
+        boxShadow: "1px 1px 2px rgba(0, 0, 0, 0.1)",
+        WebkitBoxShadow: "1px 1px 2px rgba(0, 0, 0, 0.1)",
+        MozBoxShadow: "1px 1px 2px rgba(0, 0, 0, 0.1)",
+    }
 
     // const [ref, inView] = useInView({
     //     rootMargin: '-300px',
@@ -17,7 +26,7 @@ const History = () => {
             <div style={{ textAlign: "left", }}>
                 <Project
                     title="◯AWSに移行するシステムの運用設計・構築"
-                    detail={<li>
+                    detail={<li style={liStyle}>
                         期間：2022年6月 – 現在<br />
                         <br />
                         【概要】<br />
@@ -53,7 +62,7 @@ const History = () => {
                 />
                 <Project
                     title="◯社内の管理ツール開発"
-                    detail={<li>
+                    detail={<li style={liStyle}>
                         期間：2022年5月 – 2022年5月<br />
                         <br />
                         【概要】<br />
@@ -69,7 +78,7 @@ const History = () => {
                 />
                 <Project
                     title="◯企業HPのサーバー構築"
-                    detail={<li>
+                    detail={<li style={liStyle}>
                         期間：2022年5月 – 2022年5月<br />
                         <br />
                         【概要】<br />
@@ -91,7 +100,7 @@ const History = () => {
                 />
                 <Project
                     title="◯太陽光発電の計測システムのオンプレミスでの運用・保守"
-                    detail={<li>
+                    detail={<li style={liStyle}>
                         期間：2022年5月 – 2022年5月<br />
                         <br />
                         【概要】<br />

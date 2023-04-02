@@ -19,6 +19,7 @@ import ComputeOptimizer from '../../images/AWS/ComputeOptimizer.png';
 import Cognito from '../../images/AWS/Cognito.png';
 import Config from '../../images/AWS/Config.png';
 import DataFirehose from '../../images/AWS/DataFirehose.png';
+import DevOpsGuru from '../../images/AWS/DevOpsGuru.png';
 import DirectConnect from '../../images/AWS/DirectConnect.png';
 import DS from '../../images/AWS/DS.png';
 import DynamoDB from '../../images/AWS/DynamoDB.png';
@@ -108,6 +109,7 @@ const Aws = () => {
                 <SkillIcon imgSrc={DataFirehose} text="Kinesis Data Firehose" />
                 <SkillIcon imgSrc={Amplify} text="Amplify" />
                 <SkillIcon imgSrc={WorkMail} text="WorkMail" />
+                <SkillIcon imgSrc={DevOpsGuru} text="DevOpsGuru" />
             </div>
         </div>
     )
