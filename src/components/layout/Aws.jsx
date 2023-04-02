@@ -1,4 +1,5 @@
 import React from 'react'
+import SkillIcon from '../common/SkillIcon';
 import ACM from '../../images/AWS/ACM.png';
 import Amplify from '../../images/AWS/Amplify.png';
 import APIGateway from '../../images/AWS/APIGateway.png';
@@ -50,17 +51,6 @@ import TrustedAdvisor from '../../images/AWS/TrustedAdvisor.png';
 import VPC from '../../images/AWS/VPC.png';
 import WorkMail from '../../images/AWS/WorkMail.png';
 import XRay from '../../images/AWS/X-Ray.png';
-
-
-const SkillIcon = ({ imgSrc, text, isStar }) => {
-    const iconStyle = { flex: '1 0 25%', textAlign: 'center' }
-    return (
-        <div style={iconStyle}>
-            <img src={imgSrc} height="100px" alt={text} style={{ padding: "10px" }} />
-            {isStar ? <p><b>{text}☆</b></p> : <p>{text}</p>}
-        </div>
-    )
-}
 
 const Aws = () => {
     return (

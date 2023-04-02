@@ -1,4 +1,5 @@
 import React from 'react'
+import SkillIcon from '../common/SkillIcon'
 import LinuxImg from '../../images/ALL/Linux.png'
 import WindowsImg from '../../images/ALL/Windows.png'
 import ApacheImg from '../../images/ALL/Apache.png'
@@ -18,16 +19,6 @@ import FalcoImg from '../../images/ALL/Falco.png'
 import PostgreSQLImg from '../../images/ALL/PostgreSQL.png'
 import MongoDBImg from '../../images/ALL/MongoDB.png'
 import KubernetesImg from '../../images/ALL/Kubernetes.png'
-
-const SkillIcon = ({ imgSrc, text, isStar, padding }) => {
-    const iconStyle = { flex: '1 0 25%', textAlign: 'center' }
-    return (
-        <div style={iconStyle}>
-            <img src={imgSrc} height="100px" alt={text} style={{ padding: padding ? "15px" : "10px" }} />
-            {isStar ? <p><b>{text}</b></p> : <p>{text}</p>}
-        </div>
-    )
-}
 
 const All = () => {
     return (

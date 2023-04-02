@@ -1,16 +1,23 @@
 import React from 'react'
+import Project from '../common/Project';
 import '../styles/list.css';
+import '../styles/fade.css';
+import 'animate.css';
 
 const History = () => {
+
+    // const [ref, inView] = useInView({
+    //     rootMargin: '-300px',
+    //     triggerOnce: true,
+    // });
     return (
         <div>
             <h1>History</h1>
             <h2>株式会社フィールドロジック</h2>
             <div style={{ textAlign: "left", }}>
-
-                <h3>◯AWSに移行するシステムの運用設計・構築</h3>
-                <ul>
-                    <li>
+                <Project
+                    title="◯AWSに移行するシステムの運用設計・構築"
+                    detail={<li>
                         期間：2022年6月 – 現在<br />
                         <br />
                         【概要】<br />
@@ -42,10 +49,11 @@ const History = () => {
                         【人数】<br />
                         2人<br />
                     </li>
-                </ul>
-                <h3>◯社内の管理ツール開発</h3>
-                <ul>
-                    <li>
+                    }
+                />
+                <Project
+                    title="◯社内の管理ツール開発"
+                    detail={<li>
                         期間：2022年5月 – 2022年5月<br />
                         <br />
                         【概要】<br />
@@ -57,10 +65,11 @@ const History = () => {
                         【人数】<br />
                         1人<br />
                     </li>
-                </ul>
-                <h3>◯企業HPのサーバー構築</h3>
-                <ul>
-                    <li>
+                    }
+                />
+                <Project
+                    title="◯企業HPのサーバー構築"
+                    detail={<li>
                         期間：2022年5月 – 2022年5月<br />
                         <br />
                         【概要】<br />
@@ -78,10 +87,11 @@ const History = () => {
                         【人数】<br />
                         2人<br />
                     </li>
-                </ul>
-                <h3>◯太陽光発電の計測システムのオンプレミスでの運用・保守</h3>
-                <ul>
-                    <li>
+                    }
+                />
+                <Project
+                    title="◯太陽光発電の計測システムのオンプレミスでの運用・保守"
+                    detail={<li>
                         期間：2022年5月 – 2022年5月<br />
                         <br />
                         【概要】<br />
@@ -93,7 +103,8 @@ const History = () => {
                         【人数】<br />
                         3人<br />
                     </li>
-                </ul>
+                    }
+                />
             </div>
         </div>
     )
