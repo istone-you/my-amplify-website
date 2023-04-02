@@ -1,6 +1,5 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
-import useMedia from 'use-media';
 import All from './All';
 import Aws from './Aws';
 import '../styles/fade.css';
@@ -26,11 +25,8 @@ const Skill = () => {
         };
     }, [isAll]);
 
-    const isWide = useMedia({ minWidth: '768px' })
-    const width = isWide ? '40%' : '90%'
-
     return (
-        <div style={{ margin: "0 auto", overflowWrap: "normal", width: width }}>
+        <div>
             <h1>Skill</h1>
             <button
                 onClick={handleClick}

@@ -104,7 +104,7 @@ const Aws = () => {
                 <SkillIcon imgSrc={Config} text="Config" />
                 <SkillIcon imgSrc={CFn} text="CloudFormation" />
                 <SkillIcon imgSrc={TrustedAdvisor} text="TrustedAdvisor" />
-                <SkillIcon imgSrc={SSM} text="SSM" />
+                <SkillIcon imgSrc={SSM} text="Systems Manager" />
                 <SkillIcon imgSrc={SNS} text="SNS" />
                 <SkillIcon imgSrc={EventBridge} text="EventBridge" />
                 <SkillIcon imgSrc={APIGateway} text="APIGateway" />
@@ -117,7 +117,7 @@ const Aws = () => {
                 <SkillIcon imgSrc={Athena} text="Athena" />
                 <SkillIcon imgSrc={Glue} text="Glue" />
                 <SkillIcon imgSrc={OpenSearch} text="OpenSearch" />
-                <SkillIcon imgSrc={DataFirehose} text="DataFirehose" />
+                <SkillIcon imgSrc={DataFirehose} text="Kinesis Data Firehose" />
                 <SkillIcon imgSrc={Amplify} text="Amplify" />
                 <SkillIcon imgSrc={WorkMail} text="WorkMail" />
             </div>
