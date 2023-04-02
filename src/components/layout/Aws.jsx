@@ -46,7 +46,6 @@ import SM from '../../images/AWS/SM.png';
 import SNS from '../../images/AWS/SNS.png';
 import SSM from '../../images/AWS/SSM.png';
 import SSO from '../../images/AWS/SSO.png';
-import TransitGateway from '../../images/AWS/TransitGateway.png';
 import TrustedAdvisor from '../../images/AWS/TrustedAdvisor.png';
 import VPC from '../../images/AWS/VPC.png';
 import WorkMail from '../../images/AWS/WorkMail.png';
@@ -73,7 +72,6 @@ const Aws = () => {
                 <SkillIcon imgSrc={Route53} text="Route53" />
                 <SkillIcon imgSrc={CloudFront} text="CloudFront" />
                 <SkillIcon imgSrc={DirectConnect} text="DirectConnect" />
-                <SkillIcon imgSrc={TransitGateway} text="TransitGateway" />
                 <SkillIcon imgSrc={EC2} text="EC2" />
                 <SkillIcon imgSrc={AutoScaling} text="Auto Scaling" />
                 <SkillIcon imgSrc={Lambda} text="Lambda" />
@@ -102,7 +100,7 @@ const Aws = () => {
                 <SkillIcon imgSrc={CloudTrail} text="CloudTrail" />
                 <SkillIcon imgSrc={CloudWatch} text="CloudWatch" />
                 <SkillIcon imgSrc={Config} text="Config" />
-                <SkillIcon imgSrc={CFn} text="CloudFormation" />
+                <SkillIcon imgSrc={CFn} text="CFn" />
                 <SkillIcon imgSrc={TrustedAdvisor} text="TrustedAdvisor" />
                 <SkillIcon imgSrc={SSM} text="Systems Manager" />
                 <SkillIcon imgSrc={SNS} text="SNS" />

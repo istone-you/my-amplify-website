@@ -20,7 +20,7 @@ const Career = () => {
     return (
         <div className={`App ${isLoaded ? "loaded" : ""}`} style={{ textAlign: "center", width: width, margin: "0 auto", overflowWrap: "normal", fontFamily: "ヒラギノ角ゴシック" }}>
             <div>
-                <p style={{ fontSize: "50px" }}>Career</p>
+                <p style={{ fontSize: "50px" }}><b>Career</b></p>
             </div>
             <History />
             <br />
