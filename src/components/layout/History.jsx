@@ -5,7 +5,7 @@ const History = () => {
     const isWide = useMedia({ minWidth: '768px' })
     const width = isWide ? '40%' : '90%'
     return (
-        <div style={{ margin: "0 auto", textAlign: "center", overflowWrap: "normal" }}>
+        <div style={{ margin: "0 auto", overflowWrap: "normal" }}>
             <h1>History</h1>
             <h2>株式会社フィールドロジック</h2>
             <div style={{ margin: "0 auto", overflowWrap: "normal", width: width, textAlign: "left", }}>
