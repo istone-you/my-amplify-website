@@ -29,7 +29,7 @@ const Skill = () => {
                     borderRadius: '100vh'
                 }}
             >
-                {isAll ? "AWSサービスへ" : "戻る"}
+                {isAll ? "AWSサービス" : "戻る"}
             </button>
             {isAll ? <All /> : <Aws />}
         </div>

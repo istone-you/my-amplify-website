@@ -1,57 +1,56 @@
 import React from 'react'
 import ACM from '../../images/AWS/ACM.png';
-import Cognito from '../../images/AWS/Cognito.png';
-import EBS from '../../images/AWS/EBS.png';
-import ELB from '../../images/AWS/ELB.png';
-import GuardDuty from '../../images/AWS/GuardDuty.png';
-import Lambda from '../../images/AWS/Lambda.png';
-import SSO from '../../images/AWS/SSO.png';
-import VPC from '../../images/AWS/VPC.png';
+import Amplify from '../../images/AWS/Amplify.png';
+import APIGateway from '../../images/AWS/APIGateway.png';
+import Athena from '../../images/AWS/Athena.png';
 import AutoScaling from '../../images/AWS/AutoScaling.png';
-import ComputeOptimizer from '../../images/AWS/ComputeOptimizer.png';
-import EC2 from '../../images/AWS/EC2.png';
-import FM from '../../images/AWS/FM.png';
-import Inspector from '../../images/AWS/Inspector.png';
-import Route53 from '../../images/AWS/Route53.png';
-import SecurityHub from '../../images/AWS/SecurityHub.png';
-import VPN from '../../images/AWS/VPN.png';
 import Backup from '../../images/AWS/Backup.png';
-import DS from '../../images/AWS/DS.png';
-import ECR from '../../images/AWS/ECR.png';
-import FSx from '../../images/AWS/FSx.png';
-import S3 from '../../images/AWS/S3.png';
-import Shield from '../../images/AWS/Shield.png';
+import CFn from '../../images/AWS/CFn.png';
+import Cloud9 from '../../images/AWS/Cloud9.png';
 import CloudFront from '../../images/AWS/CloudFront.png';
-import DirectConnect from '../../images/AWS/DirectConnect.png';
-import ECS from '../../images/AWS/ECS.png';
-import Fargate from '../../images/AWS/Fargate.png';
-import KMS from '../../images/AWS/KMS.png';
-import SM from '../../images/AWS/SM.png';
-import TransitGateway from '../../images/AWS/TransitGateway.png';
 import CloudTrail from '../../images/AWS/CloudTrail.png';
 import CloudWatch from '../../images/AWS/CloudWatch.png';
-import Config from '../../images/AWS/Config.png';
-import CFn from '../../images/AWS/CFn.png';
-import TrustedAdvisor from '../../images/AWS/TrustedAdvisor.png';
-import SSM from '../../images/AWS/SSM.png';
-import Amplify from '../../images/AWS/Amplify.png';
-import Cloud9 from '../../images/AWS/Cloud9.png';
 import CodeBuild from '../../images/AWS/CodeBuild.png';
 import CodeCommit from '../../images/AWS/CodeCommit.png';
 import CodeDeploy from '../../images/AWS/CodeDeploy.png';
 import CodePipeline from '../../images/AWS/CodePipeline.png';
-import XRay from '../../images/AWS/X-Ray.png';
-import RDS from '../../images/AWS/RDS.png';
-import DynamoDB from '../../images/AWS/DynamoDB.png';
-import WorkMail from '../../images/AWS/WorkMail.png';
-import SNS from '../../images/AWS/SNS.png';
-import EventBridge from '../../images/AWS/EventBridge.png';
-import APIGateway from '../../images/AWS/APIGateway.png';
-import Athena from '../../images/AWS/Athena.png';
-import Glue from '../../images/AWS/Glue.png';
-import OpenSearch from '../../images/AWS/OpenSearch.png';
+import ComputeOptimizer from '../../images/AWS/ComputeOptimizer.png';
+import Cognito from '../../images/AWS/Cognito.png';
+import Config from '../../images/AWS/Config.png';
 import DataFirehose from '../../images/AWS/DataFirehose.png';
+import DirectConnect from '../../images/AWS/DirectConnect.png';
+import DS from '../../images/AWS/DS.png';
+import DynamoDB from '../../images/AWS/DynamoDB.png';
+import EBS from '../../images/AWS/EBS.png';
+import EC2 from '../../images/AWS/EC2.png';
+import ECR from '../../images/AWS/ECR.png';
+import ECS from '../../images/AWS/ECS.png';
+import ELB from '../../images/AWS/ELB.png';
+import EventBridge from '../../images/AWS/EventBridge.png';
+import Fargate from '../../images/AWS/Fargate.png';
+import FM from '../../images/AWS/FM.png';
+import FSx from '../../images/AWS/FSx.png';
+import Glue from '../../images/AWS/Glue.png';
+import GuardDuty from '../../images/AWS/GuardDuty.png';
 import IAM from '../../images/AWS/IAM.png';
+import Inspector from '../../images/AWS/Inspector.png';
+import KMS from '../../images/AWS/KMS.png';
+import Lambda from '../../images/AWS/Lambda.png';
+import OpenSearch from '../../images/AWS/OpenSearch.png';
+import RDS from '../../images/AWS/RDS.png';
+import Route53 from '../../images/AWS/Route53.png';
+import S3 from '../../images/AWS/S3.png';
+import SecurityHub from '../../images/AWS/SecurityHub.png';
+import Shield from '../../images/AWS/Shield.png';
+import SM from '../../images/AWS/SM.png';
+import SNS from '../../images/AWS/SNS.png';
+import SSM from '../../images/AWS/SSM.png';
+import SSO from '../../images/AWS/SSO.png';
+import TransitGateway from '../../images/AWS/TransitGateway.png';
+import TrustedAdvisor from '../../images/AWS/TrustedAdvisor.png';
+import VPC from '../../images/AWS/VPC.png';
+import WorkMail from '../../images/AWS/WorkMail.png';
+import XRay from '../../images/AWS/X-Ray.png';
 
 
 const SkillIcon = ({ imgSrc, alt, text, isStar }) => {
@@ -67,13 +66,12 @@ const SkillIcon = ({ imgSrc, alt, text, isStar }) => {
 const Aws = () => {
     return (
         <>
-            <p>業務で扱ったことのある主な技術スキルです。特に得意なスキルは星マークを付けています。</p>
+            <p>業務で扱ったことのある主なAWSサービスです。</p>
             <div style={{ display: 'flex', flexWrap: 'wrap', paddingTop: "50px" }}>
                 <SkillIcon imgSrc={VPC} alt="VPC" text="VPC" />
                 <SkillIcon imgSrc={ELB} alt="ELB" text="ELB" />
                 <SkillIcon imgSrc={Route53} alt="Route53" text="Route53" />
                 <SkillIcon imgSrc={CloudFront} alt="CloudFront" text="CloudFront" />
-                <SkillIcon imgSrc={VPN} alt="Site-to-SiteVPN" text="Site-to-Site VPN" />
                 <SkillIcon imgSrc={DirectConnect} alt="DirectConnect" text="DirectConnect" />
                 <SkillIcon imgSrc={TransitGateway} alt="TransitGateway" text="TransitGateway" />
                 <SkillIcon imgSrc={EC2} alt="EC2" text="EC2" />
@@ -97,7 +95,7 @@ const Aws = () => {
                 <SkillIcon imgSrc={SM} alt="Secrets Manager" text="Secrets Manager" />
                 <SkillIcon imgSrc={FM} alt="Firewall Manager" text="Firewall Manager" />
                 <SkillIcon imgSrc={Inspector} alt="Inspector" text="Inspector" />
-                <SkillIcon imgSrc={DS} alt="DS" text="DS" />
+                <SkillIcon imgSrc={DS} alt="Directory Service" text="Directory Service" />
                 <SkillIcon imgSrc={GuardDuty} alt="GuardDuty" text="GuardDuty" />
                 <SkillIcon imgSrc={SecurityHub} alt="SecurityHub" text="SecurityHub" />
                 <SkillIcon imgSrc={Shield} alt="Shield" text="Shield" />
@@ -123,7 +121,6 @@ const Aws = () => {
                 <SkillIcon imgSrc={Amplify} alt="Amplify" text="Amplify" />
                 <SkillIcon imgSrc={WorkMail} alt="WorkMail" text="WorkMail" />
             </div>
-            <p style={{ paddingTop: "50px" }}>業務外で扱ったことのある主な技術スキルです。</p>
         </>
     )
 }
