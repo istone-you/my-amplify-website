@@ -2,8 +2,7 @@ import React from 'react'
 
 const Article = (props) => {
 
-    const liStyle = {
-        listStyle: "none",
+    const cardStyle = {
         position: "relative",
         padding: "20px",
         border: "2px solid black",
@@ -12,11 +11,11 @@ const Article = (props) => {
     }
 
     return (
-        <li style={liStyle}>
-            <h3><a href={`${props.url}`}>{props.title}</a></h3>
+        <div style={cardStyle}>
+            <h3><a href={`${props.url}`}><b>{props.title}</b></a></h3>
             <p>{props.description}</p>
             <img width={props.width} alt={props.alt} src={props.src}></img>
-        </li>
+        </div>
     )
 }
 

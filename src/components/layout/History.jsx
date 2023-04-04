@@ -5,7 +5,7 @@ import 'animate.css';
 
 const History = () => {
 
-    const liStyle = {
+    const cardStyle = {
         listStyle: "none",
         position: "relative",
         padding: "40px",
@@ -24,7 +24,7 @@ const History = () => {
             <div style={{ textAlign: "left", }}>
                 <Project
                     title="◯AWSに移行するシステムの運用設計・構築"
-                    detail={<li style={liStyle}>
+                    detail={<div style={cardStyle}>
                         期間：2022年6月 – 現在<br />
                         <br />
                         【概要】<br />
@@ -55,12 +55,12 @@ const History = () => {
                         <a href="https://qiita.com/iStone/items/72417fe599e71e62f631" alt="【AWS】ぼくのかんがえたさいきょうの運用・監視構成" target="_blank" rel="noreferrer noopener">【AWS】ぼくのかんがえたさいきょうの運用・監視構成</a><br />
                         【人数】<br />
                         2人<br />
-                    </li>
+                    </div>
                     }
                 />
                 <Project
                     title="◯社内の管理ツール開発"
-                    detail={<li style={liStyle}>
+                    detail={<div style={cardStyle}>
                         期間：2022年5月 – 2022年5月<br />
                         <br />
                         【概要】<br />
@@ -71,12 +71,12 @@ const History = () => {
                         また、実務での開発の経験を積むことができ、今後も開発の案件を経験できることとなった<br />
                         【人数】<br />
                         1人<br />
-                    </li>
+                    </div>
                     }
                 />
                 <Project
                     title="◯企業HPのサーバー構築"
-                    detail={<li style={liStyle}>
+                    detail={<div style={cardStyle}>
                         期間：2022年5月 – 2022年5月<br />
                         <br />
                         【概要】<br />
@@ -93,12 +93,12 @@ const History = () => {
                         当初はAWSを使う予定ではなかったため、構築の初期費用やサーバーの運用費を大幅に削減できた<br />
                         【人数】<br />
                         2人<br />
-                    </li>
+                    </div>
                     }
                 />
                 <Project
                     title="◯太陽光発電の計測システムのオンプレミスでの運用・保守"
-                    detail={<li style={liStyle}>
+                    detail={<div style={cardStyle}>
                         期間：2022年5月 – 2022年5月<br />
                         <br />
                         【概要】<br />
@@ -109,7 +109,7 @@ const History = () => {
                         クラウドだけでなく、オンプレミスでのサーバーの運用保守の経験ができた<br />
                         【人数】<br />
                         3人<br />
-                    </li>
+                    </div>
                     }
                 />
             </div>

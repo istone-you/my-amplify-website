@@ -62,14 +62,14 @@ const Aws = () => {
                 <SkillIcon imgSrc={ELB} text="ELB" />
                 <SkillIcon imgSrc={Route53} text="Route53" />
                 <SkillIcon imgSrc={CloudFront} text="CloudFront" />
-                <SkillIcon imgSrc={DirectConnect} text="DirectConnect" />
+                <SkillIcon imgSrc={DirectConnect} text={<>Direct<br />Connect</>} />
                 <SkillIcon imgSrc={EC2} text="EC2" />
-                <SkillIcon imgSrc={AutoScaling} text="Auto Scaling" />
+                <SkillIcon imgSrc={AutoScaling} text="AutoScaling" />
                 <SkillIcon imgSrc={Lambda} text="Lambda" />
                 <SkillIcon imgSrc={ECS} text="ECS" />
                 <SkillIcon imgSrc={Fargate} text="Fargate" />
                 <SkillIcon imgSrc={ECR} text="ECR" />
-                <SkillIcon imgSrc={ComputeOptimizer} text="Compute Optimizer" />
+                <SkillIcon imgSrc={ComputeOptimizer} text={<>Compute<br />Optimizer</>} />
                 <SkillIcon imgSrc={RDS} text="RDS" />
                 <SkillIcon imgSrc={DynamoDB} text="DynamoDB" />
                 <SkillIcon imgSrc={EBS} text="EBS" />
@@ -79,12 +79,12 @@ const Aws = () => {
                 <SkillIcon imgSrc={IAM} text="IAM" />
                 <SkillIcon imgSrc={ACM} text="ACM" />
                 <SkillIcon imgSrc={Cognito} text="Cognito" />
-                <SkillIcon imgSrc={SSO} text="IAM Identity Center" />
+                <SkillIcon imgSrc={SSO} text={<>IAM Identity<br />Center</>} />
                 <SkillIcon imgSrc={KMS} text="KMS" />
-                <SkillIcon imgSrc={SM} text="Secrets Manager" />
-                <SkillIcon imgSrc={FM} text="Firewall Manager" />
+                <SkillIcon imgSrc={SM} text={<>Secrets<br />Manager</>} />
+                <SkillIcon imgSrc={FM} text={<>Firewall<br />Manager</>} />
                 <SkillIcon imgSrc={Inspector} text="Inspector" />
-                <SkillIcon imgSrc={DS} text="Directory Service" />
+                <SkillIcon imgSrc={DS} text={<>Directory<br />Service</>} />
                 <SkillIcon imgSrc={GuardDuty} text="GuardDuty" />
                 <SkillIcon imgSrc={SecurityHub} text="SecurityHub" />
                 <SkillIcon imgSrc={Shield} text="Shield" />
@@ -92,8 +92,8 @@ const Aws = () => {
                 <SkillIcon imgSrc={CloudWatch} text="CloudWatch" />
                 <SkillIcon imgSrc={Config} text="Config" />
                 <SkillIcon imgSrc={CFn} text="CFn" />
-                <SkillIcon imgSrc={TrustedAdvisor} text="TrustedAdvisor" />
-                <SkillIcon imgSrc={SSM} text="Systems Manager" />
+                <SkillIcon imgSrc={TrustedAdvisor} text={<>Trusted<br />Advisor</>} />
+                <SkillIcon imgSrc={SSM} text={<>Systems<br />Manager</>} />
                 <SkillIcon imgSrc={SNS} text="SNS" />
                 <SkillIcon imgSrc={EventBridge} text="EventBridge" />
                 <SkillIcon imgSrc={APIGateway} text="APIGateway" />
@@ -106,7 +106,7 @@ const Aws = () => {
                 <SkillIcon imgSrc={Athena} text="Athena" />
                 <SkillIcon imgSrc={Glue} text="Glue" />
                 <SkillIcon imgSrc={OpenSearch} text="OpenSearch" />
-                <SkillIcon imgSrc={DataFirehose} text="Kinesis Data Firehose" />
+                <SkillIcon imgSrc={DataFirehose} text={<>Kinesis<br />DataFirehose</>} />
                 <SkillIcon imgSrc={Amplify} text="Amplify" />
                 <SkillIcon imgSrc={WorkMail} text="WorkMail" />
                 <SkillIcon imgSrc={DevOpsGuru} text="DevOpsGuru" />

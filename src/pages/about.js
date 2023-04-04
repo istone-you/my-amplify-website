@@ -20,7 +20,8 @@ const about = () => {
                         style={{
                             marginTop: `50px`,
                             borderRadius: `50%`,
-                            border: `2px solid black`,
+                            zIndex: 1,
+                            border: `1px solid black`,
                         }}
                     />
                     <div style={{ fontSize: "30px", marginBottom: "20px"}}>石井 湧</div>

@@ -30,7 +30,7 @@ const links = [
     text: "About",
     url: "/about",
     description:
-      'Get to know about me',
+      'I want you to know about me!',
   },
 ]
 
@@ -48,11 +48,12 @@ const IndexPage = () => (
           style={{
             marginBottom: `var(--space-3)`,
             borderRadius: `50%`,
-            border: `2px solid black`,
+            zIndex: 1,
+            border: `1px solid black`,
           }}
         />
         <h1>
-          Welcome to Gatsby!
+          Welcome to Yu Ishii's Site!
         </h1>
       </div>
       <div className="Comment">
@@ -76,7 +77,7 @@ const IndexPage = () => (
         ))}
       </ul>
       <div className={styles.textCenter}>
-        <p>My email adress is <a href="mailto:address">istoneyou1205@gmail.com</a> or find me on <a href="https://www.twitter.com/istone_you">Twitter</a></p>
+        <p>My email adress is <a href="mailto:istoneyou1205@gmail.com">istoneyou1205@gmail.com</a> or find me on <a href="https://www.twitter.com/istone_you">Twitter</a></p>
       </div>
     </div>
   </Layout>
