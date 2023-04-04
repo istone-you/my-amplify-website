@@ -5,9 +5,11 @@ const SkillIcon = (prpps) => {
     const isWide = useMedia({ minWidth: '768px' })
     const width = isWide ? '25%' : '30%'
     return (
-        <div style={{ flex: `1 0 ${width}`, textAlign: 'center' }}>
-            <img src={prpps.imgSrc} height="100px" alt={prpps.text} style={{ padding: prpps.padding ? "15px" : "10px" }} />
-            {prpps.isStar ? <p><b>{prpps.text}</b></p> : <p>{prpps.text}</p>}
+        <div style={{margin: "0 auto"}}>
+            <div style={{ textAlign: 'center', margin: "15px" }}>
+                <img src={prpps.imgSrc} width="100px" alt={prpps.text} style={{ padding: prpps.padding ? "15px" : "10px" }} />
+                {prpps.isStar ? <p><b>{prpps.text}</b></p> : <p>{prpps.text}</p>}
+            </div>
         </div>
     )
 }
