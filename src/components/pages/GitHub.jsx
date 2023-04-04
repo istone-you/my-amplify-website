@@ -13,7 +13,7 @@ const GitHub = () => {
       <div style={{ textAlign: "center", margin: "0 auto", overflowWrap: "normal" }}>
         <div className="Icon">
           <div style={{ fontSize: "50px", marginBottom: "10px" }}><b>GitHub</b></div>
-          <p>アカウントは<a href='https://qiita.com/iStone'>こちら</a></p>
+          <p>アカウントは<a href='https://github.com/istone-you'>こちら</a></p>
         </div>
         <div className="Comment" style={{ marginTop: "50px" }}>
           <h2>JavaScript</h2>
