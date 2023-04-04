@@ -10,9 +10,9 @@
 module.exports = {
   siteMetadata: {
     title: `iStone`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `This is the portfolio site of Yu Ishii.`,
     author: `@istone-you`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    siteUrl: `https://istoneyou.net/`,
     siteImage: `/banner.jpg`,
     siteLanguage: `en`,
     author: `iStone`,
