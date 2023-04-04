@@ -11,10 +11,11 @@ const Qiita = () => {
             <div style={{ textAlign: "center", margin: "0 auto", overflowWrap: "normal" }}>
                 <div className={styles.textCenter}>
                     <div className="Icon">
-                        <div style={{ fontSize: "50px", }}><b>Qiita</b></div>
+                        <div style={{ fontSize: "50px", marginBottom: "10px"}}><b>Qiita</b></div>
+                        <p>アカウントは<a href='https://qiita.com/iStone'>こちら</a></p>
                     </div>
                 </div>
-                <div className="Comment" style={{ marginTop: "100px" }}>
+                <div className="Comment" style={{ marginTop: "50px" }}>
                     <Article
                         title="【AWS】ぼくのかんがえたさいきょうの運用・監視構成"
                         url="https://qiita.com/iStone/items/72417fe599e71e62f631"

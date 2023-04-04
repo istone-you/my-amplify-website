@@ -20,7 +20,9 @@ const Career = () => {
                     <History color={color} />
                 </div>
                 <br />
-                <Skill color={color} />
+                <div className="Comment">
+                    <Skill color={color} />
+                </div>
                 <br />
             </div>
         </Layout>

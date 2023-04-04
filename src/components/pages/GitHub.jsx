@@ -11,8 +11,11 @@ const GitHub = () => {
   return (
     <Layout>
       <div style={{ textAlign: "center", margin: "0 auto", overflowWrap: "normal" }}>
-        <div style={{ fontSize: "50px", }} className="Icon"><b>GitHub</b></div>
-        <div className="Comment" style={{ marginTop: "100px" }}>
+        <div className="Icon">
+          <div style={{ fontSize: "50px", marginBottom: "10px" }}><b>GitHub</b></div>
+          <p>アカウントは<a href='https://qiita.com/iStone'>こちら</a></p>
+        </div>
+        <div className="Comment" style={{ marginTop: "50px" }}>
           <h2>JavaScript</h2>
           <Repository
             title="my-amplify-website"
