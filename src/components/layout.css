@@ -77,9 +77,6 @@ h1 {
   line-height: var(--line-height-dense);
   letter-spacing: -0.01em;
 }
-h1 > b {
-  color: var(--color-primary);
-}
 img {
   border-style: none;
   max-width: 100%;
@@ -175,9 +172,6 @@ p *:last-child {
 }
 li > p {
   margin-bottom: calc(var(--space-4) / 2);
-}
-p {
-  max-width: 680px;
 }
 code {
   font-size: 0.875rem;

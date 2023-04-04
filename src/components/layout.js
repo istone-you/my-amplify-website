@@ -6,25 +6,22 @@
  */
 
 import * as React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import { useLocation } from "@reach/router"
 
 import Header from "./header"
 import "./layout.css"
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
+  const location = useLocation();
 
   return (
-    <>
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
+    <div style={{
+      boxShadow: "15px 15px 0px 0 black",
+      width: "90%", margin: "20px auto",
+      border:"2px solid black",
+      paddingBottom: "50px"
+    }}>
+      <Header path={location.pathname} />
       <div
         style={{
           margin: `0 auto`,
@@ -39,12 +36,9 @@ const Layout = ({ children }) => {
             fontSize: `var(--font-sm)`,
           }}
         >
-          © {new Date().getFullYear()} &middot; Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
         </footer>
       </div>
-    </>
+    </div>
   )
 }
 
