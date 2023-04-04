@@ -12,11 +12,11 @@ const Article = (props) => {
     }
 
     return (
-        <li style={liStyle}>
+        <div style={liStyle}>
             <h3><a href={`${props.url}`}>{props.title}</a></h3>
             <p>{props.description}</p>
             <img width={props.width} alt={props.alt} src={props.src}></img>
-        </li>
+        </div>
     )
 }
 
