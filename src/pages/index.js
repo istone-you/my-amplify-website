@@ -49,7 +49,7 @@ const IndexPage = () => (
             marginBottom: `var(--space-3)`,
             borderRadius: `50%`,
             zIndex: 1,
-            border: `2px solid black`,
+            border: `1px solid black`,
           }}
         />
         <h1>
