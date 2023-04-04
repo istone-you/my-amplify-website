@@ -30,7 +30,7 @@ const links = [
     text: "About",
     url: "/about",
     description:
-      'Get to know about me',
+      'I want you to know about me!',
   },
 ]
 
