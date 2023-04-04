@@ -12,7 +12,7 @@ const Repository = (props) => {
 
   return (
     <div style={cardStyle}>
-      <h3><a href={`https://github.com/istone-you/${props.title}`}>{props.title}</a></h3>
+      <h3><a href={`https://github.com/istone-you/${props.title}`}><b>{props.title}</b></a></h3>
       <p>{props.description}</p>
       <img width={props.width} alt={props.alt} src={props.src}></img>
     </div>
