@@ -20,6 +20,7 @@ const about = () => {
                         style={{
                             marginTop: `50px`,
                             borderRadius: `50%`,
+                            zIndex: 1,
                             border: `2px solid black`,
                         }}
                     />

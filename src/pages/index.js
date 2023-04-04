@@ -48,6 +48,7 @@ const IndexPage = () => (
           style={{
             marginBottom: `var(--space-3)`,
             borderRadius: `50%`,
+            zIndex: 1,
             border: `2px solid black`,
           }}
         />
@@ -76,7 +77,7 @@ const IndexPage = () => (
         ))}
       </ul>
       <div className={styles.textCenter}>
-        <p>My email adress is <a href="mailto:address">istoneyou1205@gmail.com</a> or find me on <a href="https://www.twitter.com/istone_you">Twitter</a></p>
+        <p>My email adress is <a href="mailto:istoneyou1205@gmail.com">istoneyou1205@gmail.com</a> or find me on <a href="https://www.twitter.com/istone_you">Twitter</a></p>
       </div>
     </div>
   </Layout>
