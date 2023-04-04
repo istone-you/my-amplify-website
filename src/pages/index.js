@@ -48,7 +48,7 @@ const IndexPage = () => (
           style={{
             marginBottom: `var(--space-3)`,
             borderRadius: `50%`,
-            border: `1px solid black`,
+            border: `2px solid black`,
           }}
         />
         <h1>

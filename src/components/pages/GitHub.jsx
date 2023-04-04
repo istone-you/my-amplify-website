@@ -1,5 +1,4 @@
 import React from 'react'
-import useMedia from 'use-media';
 import Repository from '../common/Repository'
 
 import Layout from '../layout.js';
@@ -16,12 +15,9 @@ const GitHub = () => {
     listStyle: 'none'
   };
 
-  const isWide = useMedia({ minWidth: '768px' })
-  const width = isWide ? '100%' : '90%'
-
   return (
     <Layout>
-      <div style={{ textAlign: "center", width: width, margin: "0 auto", overflowWrap: "normal" }}>
+      <div style={{ textAlign: "center",  margin: "0 auto", overflowWrap: "normal" }}>
         <div style={{ fontSize: "50px", }} className="Icon"><b>GitHub</b></div>
         <div className="Comment" style={{ marginTop: "100px" }}>
           <h2>JavaScript</h2>

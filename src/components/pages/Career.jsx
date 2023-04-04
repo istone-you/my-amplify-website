@@ -1,5 +1,4 @@
 import React from 'react'
-import useMedia from 'use-media';
 
 import Layout from '../layout.js';
 import Skill from '../layout/Skill';
@@ -9,12 +8,10 @@ import '../styles/fade.css'
 const Career = () => {
     const color = "#eb6100"
 
-    const isWide = useMedia({ minWidth: '768px' })
-    const width = isWide ? '100%' : '90%'
 
     return (
         <Layout>
-            <div style={{ textAlign: "center", width: width, margin: "0 auto", overflowWrap: "normal", fontFamily: "ヒラギノ角ゴシック" }}>
+            <div style={{ textAlign: "center", margin: "0 auto", overflowWrap: "normal" }}>
                 <div className="Icon">
                     <b style={{ fontSize: "50px" }}>Career</b>
                 </div>
