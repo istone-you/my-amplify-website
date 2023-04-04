@@ -1,17 +1,14 @@
 import React from 'react'
-import useMedia from 'use-media';
 
 import Article from '../common/Article'
 import Layout from '../layout.js';
 import * as styles from "../index.module.css"
 
 const Qiita = () => {
-    const isWide = useMedia({ minWidth: '768px' })
-    const width = isWide ? '100%' : '90%'
 
     return (
         <Layout>
-            <div style={{ textAlign: "center", width: width, margin: "0 auto", overflowWrap: "normal" }}>
+            <div style={{ textAlign: "center", margin: "0 auto", overflowWrap: "normal" }}>
                 <div className={styles.textCenter}>
                     <div className="Icon">
                         <div style={{ fontSize: "50px", }}><b>Qiita</b></div>

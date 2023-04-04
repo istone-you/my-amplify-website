@@ -53,7 +53,7 @@ const IndexPage = () => (
           }}
         />
         <h1>
-          Welcome to Gatsby!
+          Welcome to Yu Ishii's Site!
         </h1>
       </div>
       <div className="Comment">
