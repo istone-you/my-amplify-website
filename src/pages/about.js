@@ -39,6 +39,14 @@ const about = () => {
                         その他の趣味としては、ギターを弾く事やサッカーを観戦する事、本を読む事です。<br />
                         仕事も趣味と同じくらい好きで、ついつい休日でも勉強してしまいます。
                     </p>
+                    <h3>Want to do</h3>
+                    <b>
+                        I am very curious, and therefore, I want to explore and learn about various technologies and knowledge.<br />
+                    </b>
+                    <br />
+                    <p style={{marginBottom: "50px"}}>
+                        とても好奇心旺盛なので、様々な技術や知識に触れたいと思っています。
+                    </p>
                     <div className={styles.textCenter}>
                         <p>My email adress is <a href="mailto:istoneyou1205@gmail.com">istoneyou1205@gmail.com</a> or find me on <a href="https://www.twitter.com/istone_you">Twitter</a></p>
                     </div>
