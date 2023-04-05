@@ -24,7 +24,7 @@ const links = [
     text: "GitHub",
     url: "/github",
     description:
-      "Please take a look at this page that describes all GitHub repositories.",
+      "Explanation of Github repositories.",
   },
   {
     text: "Qiita",
