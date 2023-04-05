@@ -25,7 +25,7 @@ const about = () => {
                             border: `1px solid black`,
                         }}
                     />
-                    <div style={{ fontSize: "30px", marginBottom: "20px" }}>石井 湧</div>
+                    <div style={{ fontSize: "30px", margin: "10px 0 40px 0" }}>石井 湧</div>
                 </div>
                 <div className="Comment">
                     <b>
