@@ -24,7 +24,7 @@ const links = [
     text: "GitHub",
     url: "/github",
     description:
-      "Please take a look at this page that describes all GitHub repositories.",
+      "Explanation of Github repositories.",
   },
   {
     text: "Qiita",
@@ -94,6 +94,6 @@ const IndexPage = () => (
  *
  * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
  */
-export const Head = () => <Seo title="Home" />
+export const Head = () => <Seo />
 
 export default IndexPage
