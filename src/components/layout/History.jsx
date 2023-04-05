@@ -20,6 +20,7 @@ const History = () => {
     return (
         <div>
             <h2>株式会社フィールドロジック</h2>
+            <p>2022年3月~現在</p>
             <div style={{ textAlign: "left", }}>
                 <Project
                     title="◯AWSに移行するシステムの運用設計・構築"
