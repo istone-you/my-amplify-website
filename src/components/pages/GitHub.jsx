@@ -19,7 +19,7 @@ const GitHub = () => {
           <h2>JavaScript</h2>
           <Repository
             title="my-amplify-website"
-            description="React.jsをベースとした静的サイトジェネレーターであるGatsby.jsを使ったWebサイトです。"
+            description="React.jsとGatsby.jsを使ったWebサイトで、こちらのサイトのソースコードです。(改良中)"
             width={200}
             alt="React-Gatsby.jpg"
             src={GatsbyImg}
