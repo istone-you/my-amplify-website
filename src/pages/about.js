@@ -29,13 +29,13 @@ const about = () => {
                 </div>
                 <div className="Comment">
                     <b>
-                        I am 26 years old, from Kagawa Prefecture. I graduated from Kansai University, Faculty of Law, and have been working as an engineer since March 2022.
-                        Until then, I was a real estate salesman.<br />
+                        I am 26 years old, from Kagawa Prefecture. After graduating from the Faculty of Law at Kansai University, I worked in real estate sales.
+                        I changed my job from there and have been working as an engineer since March 2022.<br />
                     </b>
                     <br />
                     <p style={{ marginBottom: "50px" }}>
-                        香川県出身の26歳。関西大学法学部卒で、2022年3月よりエンジニアとして活動しております。
-                        それまでは不動産の営業をしておりました。<br />
+                        香川県出身の26歳。関西大学法学部卒業後、不動産の営業をしておりました。
+                        そこから転職して2022年3月よりエンジニアとして活動しております。<br />
                     </p>
                     <b>
                         I mainly deal with infrastructure (AWS) in my work, but I also do programming as a hobby.<br />
