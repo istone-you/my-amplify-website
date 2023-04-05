@@ -1,5 +1,6 @@
 import React from 'react'
 import Github from '../components/pages/GitHub'
+import Seo from "../components/seo"
 
 const github = () => {
   return (
@@ -8,5 +9,7 @@ const github = () => {
     </div>
   )
 }
+
+export const Head = () => <Seo title="GitHub" />
 
 export default github

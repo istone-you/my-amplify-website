@@ -12,10 +12,6 @@ module.exports = {
     title: `iStone`,
     description: `This is the portfolio site of Yu Ishii.`,
     author: `@istone-you`,
-    siteUrl: `https://istoneyou.net/`,
-    siteImage: `/banner.jpg`,
-    siteLanguage: `en`,
-    author: `iStone`,
   },
   plugins: [
     `gatsby-plugin-image`,
