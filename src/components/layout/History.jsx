@@ -19,7 +19,6 @@ const History = () => {
     // });
     return (
         <div>
-            <h1>History</h1>
             <h2>株式会社フィールドロジック</h2>
             <div style={{ textAlign: "left", }}>
                 <Project

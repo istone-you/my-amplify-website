@@ -1,7 +1,6 @@
 import React from 'react'
 
 import Layout from '../layout.js';
-import Skill from '../layout/Skill';
 import History from '../layout/History';
 import '../styles/fade.css'
 
@@ -18,10 +17,6 @@ const Career = () => {
                 <br />
                 <div className="Comment">
                     <History color={color} />
-                </div>
-                <br />
-                <div className="Comment">
-                    <Skill color={color} />
                 </div>
                 <br />
             </div>

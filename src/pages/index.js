@@ -12,7 +12,13 @@ const links = [
     text: "Career",
     url: "/career",
     description:
-      "Here is my career history and skills",
+      "Here is my career history",
+  },
+  {
+    text: "Skill",
+    url: "/skill",
+    description:
+      "Here are my technical skills",
   },
   {
     text: "GitHub",
