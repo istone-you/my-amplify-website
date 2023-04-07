@@ -2,7 +2,7 @@ import React from 'react'
 import Repository from '../common/Repository'
 
 import Layout from '../layout.js';
-import GatsbyImg from '../../images/React-Gatsby.jpg'
+import AmplifyImg from '../../images/my-amplify-website.drawio.png'
 import MernImg from '../../images/MernStack.png'
 import '../styles/fade.css'
 
@@ -19,10 +19,10 @@ const GitHub = () => {
           <h2>JavaScript</h2>
           <Repository
             title="my-amplify-website"
-            description="React.jsとGatsby.jsを使ったWebサイトで、こちらのサイトのソースコードです。(改良中)"
-            width={200}
-            alt="React-Gatsby.jpg"
-            src={GatsbyImg}
+            description={<>React.jsとGatsby.jsを使ったWebサイトで、当サイトのソースコードです。(改良中)<br/>Amplifyを使ってホスティングとCI/CD、バックエンドの構築を行い、職務経歴書のダウンロードにはAppSync(GraphQl)とLambda(Python)を使っています。</>}
+            width={500}
+            alt="my-amplify-website.jpg"
+            src={AmplifyImg}
           >
           </Repository>
           <Repository
