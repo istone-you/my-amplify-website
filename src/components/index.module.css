@@ -33,6 +33,7 @@
 .listItem:hover {
   transform: translateY(-4px);
   transition-duration: 0.2s;
+  text-decoration: none;
 }
 
 .textCenter {
@@ -99,4 +100,15 @@
   margin-left: -17px;
   margin-bottom: 2px;
   border-bottom-color:#000000;
+}
+
+.homeButton {
+  opacity: 1;
+  height: 50px;
+  transition-duration: 0.2s;
+}
+
+.homeButton:hover {
+  opacity: 0.5;
+  transition-duration: 0.2s;
 }

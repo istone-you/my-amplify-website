@@ -2,6 +2,7 @@ import * as React from "react"
 import { Link } from "gatsby"
 
 import Home from '../images/home.png'
+import * as styles from "../components/index.module.css"
 import '../components/styles/fade.css'
 
 const Header = ({ path }) => (
@@ -19,7 +20,7 @@ const Header = ({ path }) => (
           <></>
           :
           <Link to="/">
-            <img src={Home} alt="home.png" height="50px" />
+            <img src={Home} alt="home.png" className={styles.homeButton} />
           </Link>
       }
     </header>
