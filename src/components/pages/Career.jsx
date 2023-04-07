@@ -2,6 +2,7 @@ import React from 'react'
 
 import Layout from '../layout.js';
 import History from '../layout/History';
+import DownloadFileS3 from '../layout/DownloadFileS3';
 import '../styles/fade.css'
 
 const Career = () => {
@@ -16,6 +17,7 @@ const Career = () => {
                 </div>
                 <br />
                 <div className="Comment">
+                    <DownloadFileS3 />
                     <History color={color} />
                 </div>
                 <br />
