@@ -33,6 +33,7 @@
 .listItem:hover {
   transform: translateY(-4px);
   transition-duration: 0.2s;
+  text-decoration: none;
 }
 
 .textCenter {
