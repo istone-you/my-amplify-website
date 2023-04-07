@@ -5,7 +5,9 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@aws-amplify/core": "^5.1.8",
     "animate.css": "^4.1.1",
+    "aws-amplify": "^5.0.25",
     "gatsby": "^5.8.1",
     "gatsby-plugin-image": "^3.8.0",
     "gatsby-plugin-manifest": "^5.8.0",

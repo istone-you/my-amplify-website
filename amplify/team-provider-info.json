@@ -10,6 +10,17 @@
       "StackName": "amplify-myamplifywebsite-feature-94745",
       "StackId": "arn:aws:cloudformation:ap-northeast-1:827621781261:stack/amplify-myamplifywebsite-feature-94745/c1eb0240-ce16-11ed-81d0-0e151c091fc9",
       "AmplifyAppId": "d3533qebtinuv2"
+    },
+    "categories": {
+      "function": {
+        "DownloadFileFromS3": {
+          "deploymentBucketName": "amplify-myamplifywebsite-feature-94745-deployment",
+          "s3Key": "amplify-builds/DownloadFileFromS3-2f6a5148425967596c59-build.zip"
+        }
+      },
+      "api": {
+        "myamplifywebsite": {}
+      }
     }
   }
 }
