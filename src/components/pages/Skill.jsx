@@ -1,13 +1,15 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
-import All from '../layout/All';
+import Dev from '../layout/Dev';
+import Ops from '../layout/Ops';
 import Aws from '../layout/Aws';
+import SkillButton from '../common/SkillButton';
 import Layout from '../layout.js';
 import '../styles/fade.css';
 
 
 const Skill = () => {
-    const [isAll, setIsAll] = useState(true);
+    const [selectSkill, setSelectSkill] = useState("Ops");
     const [animationClass, setAnimationClass] = useState("fade-enter");
 
     useEffect(() => {
@@ -19,7 +21,7 @@ const Skill = () => {
         return () => {
             clearTimeout(timer);
         };
-    }, [isAll]);
+    }, [selectSkill]);
 
     return (
         <Layout>
@@ -28,52 +30,15 @@ const Skill = () => {
                 <h1>Skill</h1>
             </div>
                 <div style={{ display: 'flex' }} className="Comment">
-                    <div
-                        onClick={() => setIsAll(true)}
-                        onKeyDown={(e) => {
-                            if (e.key === "Enter" || e.key === " ") {
-                                setIsAll(true);
-                            }
-                        }}
-                        role="button"
-                        tabIndex="0"
-                        style={{
-                            width: "50%",
-                            pointerEvents: isAll ? "none" : "",
-                            background: isAll ? "" : "transparent",
-                            cursor: isAll ? "default" : "pointer",
-                            border: "none",
-                            color: isAll ? "white" : "black",
-                            backgroundColor: isAll ? "black" : "",
-                            borderBottom: isAll ? "none" : `2px solid black`,
-                        }}
-                    >
-                        <b>All</b>
-                    </div>
-                    <div
-                        onClick={() => setIsAll(false)}
-                        onKeyDown={(e) => {
-                            if (e.key === "Enter" || e.key === " ") {
-                                setIsAll(false);
-                            }
-                        }}
-                        role="button"
-                        tabIndex="0"
-                        style={{
-                            width: "50%",
-                            pointerEvents: isAll ? "" : "none",
-                            background: isAll ? "transparent" : "",
-                            cursor: isAll ? "pointer" : "default",
-                            border: "none",
-                            color: isAll ? "black" : "white",
-                            backgroundColor: isAll ? "" : "black",
-                            borderBottom: isAll ? `2px solid black` : "none",
-                        }}
-                    >
-                        <b>AWS</b>
-                    </div>
+                    <SkillButton skill="Ops" selectSkill={selectSkill} setSelectSkill={setSelectSkill} />
+                    <SkillButton skill="Dev" selectSkill={selectSkill} setSelectSkill={setSelectSkill} />
+                    <SkillButton skill="AWS" selectSkill={selectSkill} setSelectSkill={setSelectSkill} />
                 </div>
-                <div className={animationClass} style={{ marginTop: "20px" }}>{isAll ? <All /> : <Aws />}</div>
+                <div className={animationClass} style={{ marginTop: "20px" }}>
+                    {selectSkill === "Ops" && <Ops />}
+                    {selectSkill === "Dev" && <Dev />}
+                    {selectSkill === "AWS" && <Aws />}
+                </div>
             </div>
         </Layout>
     )
