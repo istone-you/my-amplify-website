@@ -39,13 +39,13 @@ const about = () => {
                     </p>
                     <b>
                         I mainly deal with infrastructure (AWS) in my work, but I also do programming as a hobby.<br />
-                        As for other hobbies, I enjoy playing guitar, watching soccer games, and reading books.<br />
+                        As for other hobbies, I enjoy playing guitar, watching soccer games, and reading books(including manga!).<br />
                         I also love my job as much as my hobbies, and I often find myself studying even on days off.<br />
                     </b>
                     <br />
                     <p style={{ marginBottom: "50px" }}>
                         業務ではインフラ(AWS)を主に扱っておりますが、趣味でプログラミングも行っています。<br />
-                        その他の趣味としては、ギターを弾く事やサッカーを観戦する事、本を読む事です。<br />
+                        他にも、ギターを弾く事やサッカーを観戦する事、本を読む事（漫画も含めて！）が趣味だったりします。<br />
                         仕事も趣味と同じくらい好きで、ついつい休日でも勉強してしまいます。
                     </p>
                     <b>
