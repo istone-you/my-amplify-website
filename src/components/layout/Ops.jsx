@@ -22,7 +22,7 @@ import KubernetesImg from '../../images/ALL/Kubernetes.png'
 const All = () => {
     return (
         <div>
-            <p>業務で扱ったことのある主なインフラスキルです。特に得意なスキルは太字にしています。</p>
+            <p>業務で扱ったことのある主なインフラスキルです。<br/>特に得意なスキルは太字にしています。</p>
             <div style={{ display: 'flex', flexWrap: 'wrap', paddingTop: "50px" }}>
                 <SkillIcon imgSrc={LinuxImg} text="Linux" isStar />
                 <SkillIcon imgSrc={WindowsImg} text="Windows" />

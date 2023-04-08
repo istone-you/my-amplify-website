@@ -13,7 +13,7 @@ import NestImg from '../../images/ALL/Nest.png'
 const All = () => {
     return (
         <div>
-            <p>業務で扱ったことのある主なプログラミングスキルです。<br/>インフラメインのエンジニアの為、現時点ではインフラの自動化やツールの作成でのみ経験になります。</p>
+            <p>業務で扱ったことのある主なプログラミングスキルです。<br/>インフラメインのエンジニアの為、現時点ではインフラの自動化やツールの作成でのみの経験になります。</p>
             <div style={{ display: 'flex', flexWrap: 'wrap', paddingTop: "50px" }}>
                 <SkillIcon imgSrc={JavaScriptImg} text="JavaScript" />
                 <SkillIcon imgSrc={NodeImg} text="Node.js" />
