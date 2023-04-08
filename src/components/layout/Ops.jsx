@@ -43,7 +43,7 @@ const All = () => {
                 <SkillIcon imgSrc={GraphQL} text="GraphQL" />
                 <SkillIcon imgSrc="" text="" />
             </div>
-            <p style={{ paddingTop: "50px" }}>業務外で扱ったことのある主な技術スキルです。</p>
+            <p style={{ paddingTop: "50px" }}>業務外で扱ったことのある主なインフラスキルです。</p>
             <div style={{ display: 'flex', flexWrap: 'wrap', paddingTop: "50px" }}>
                 <SkillIcon imgSrc={KubernetesImg} text="Kubernetes" />
             </div>
