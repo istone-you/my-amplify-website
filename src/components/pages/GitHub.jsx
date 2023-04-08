@@ -19,7 +19,7 @@ const GitHub = () => {
           <h2>JavaScript</h2>
           <Repository
             title="my-amplify-website"
-            description={<>React.jsとGatsby.jsを使ったWebサイトで、当サイトのソースコードです。(改良中)<br/>Amplifyを使ってホスティングとCI/CD、バックエンドの構築を行い、職務経歴書のダウンロードにはAppSync(GraphQl)とLambda(Python)を使っています。</>}
+            description={<>React.jsとGatsby.jsを使ったWebサイトで、当サイトのソースコードです。(改良中)<br/>Amplifyを使ってホスティングとCI/CD、バックエンドの構築を行い、職務経歴書のダウンロードにはAppSync(GraphQL)とLambda(Python)を使っています。</>}
             width={500}
             alt="my-amplify-website.jpg"
             src={AmplifyImg}
