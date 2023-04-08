@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import Dev from '../layout/Dev';
 import Ops from '../layout/Ops';
 import Aws from '../layout/Aws';
-import SkillButton from '../layout/SkillButton';
+import SkillButton from '../common/SkillButton';
 import Layout from '../layout.js';
 import '../styles/fade.css';
 
