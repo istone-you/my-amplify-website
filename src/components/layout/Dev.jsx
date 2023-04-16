@@ -9,6 +9,9 @@ import RubyImg from '../../images/ALL/Ruby.png'
 import RailsImg from '../../images/ALL/Rails.png'
 import NextImg from '../../images/ALL/Next.png'
 import NestImg from '../../images/ALL/Nest.png'
+import GatsbyImg from '../../images/ALL/Gatsby.png'
+import ExpressImg from '../../images/ALL/Express.png'
+import FlaskImg from '../../images/ALL/Flask.png'
 
 const All = () => {
     return (
@@ -24,7 +27,10 @@ const All = () => {
             <p style={{ paddingTop: "50px" }}>業務外で扱ったことのある主なプログラミングスキルです。</p>
             <div style={{ display: 'flex', flexWrap: 'wrap', paddingTop: "50px" }}>
                 <SkillIcon imgSrc={NextImg} text="Next.js" />
+                <SkillIcon imgSrc={GatsbyImg} text="Gatsby.js" />
+                <SkillIcon imgSrc={ExpressImg} text="Express.js" />
                 <SkillIcon imgSrc={NestImg} text="Nest.js" />
+                <SkillIcon imgSrc={FlaskImg} text="Flask" />
                 <SkillIcon imgSrc={RubyImg} text="Ruby" />
                 <SkillIcon imgSrc={RailsImg} text="Ruby on Rails" />
             </div>
