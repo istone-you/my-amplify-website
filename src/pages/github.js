@@ -1,5 +1,5 @@
 import React from 'react'
-import Github from '../components/pages/GitHub'
+import Github from '../components/data/GitHub'
 import Seo from "../components/seo"
 
 const github = () => {

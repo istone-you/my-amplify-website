@@ -1,5 +1,5 @@
 import React from 'react'
-import Qiita from '../components/pages/Qiita'
+import Qiita from '../components/data/Qiita'
 import Seo from "../components/seo"
 
 const qiita = () => {
