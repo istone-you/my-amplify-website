@@ -12,13 +12,13 @@ const links = [
     text: "Career",
     url: "/career",
     description:
-      "Here is my career history",
+      "My career history",
   },
   {
     text: "Skill",
     url: "/skill",
     description:
-      "Here are my technical skills",
+      "My technical skills",
   },
   {
     text: "GitHub",
@@ -36,7 +36,7 @@ const links = [
     text: "Blog",
     url: "/blog",
     description:
-      'All articles received "Likes" from many users!',
+      'My blog site built with Jamstack',
   },
   {
     text: "About",
