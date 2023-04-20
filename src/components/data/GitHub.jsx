@@ -1,15 +1,12 @@
 import React from 'react'
 import Repository from '../common/Repository'
 
-import Layout from '../layout.js';
 import AmplifyImg from '../../images/my-amplify-website.drawio.png'
 import MernImg from '../../images/MernStack.png'
 import '../styles/fade.css'
 
 const GitHub = () => {
-
   return (
-    <Layout>
       <div style={{ textAlign: "center", margin: "0 auto", overflowWrap: "normal" }}>
         <div className="Icon">
           <div style={{ fontSize: "50px", marginBottom: "10px" }}><b>GitHub</b></div>
@@ -124,7 +121,6 @@ const GitHub = () => {
           </Repository>
         </div>
       </div>
-    </Layout>
   )
 }
 

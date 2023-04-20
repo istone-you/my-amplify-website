@@ -1,12 +1,15 @@
 import React from 'react'
 import Qiita from '../components/data/Qiita'
+import Layout from '../components/layout';
 import Seo from "../components/seo"
 
 const qiita = () => {
   return (
-    <div style={{margin: "20px 0"}}>
+    <Layout>
+      <div style={{ margin: "20px 0" }}>
         <Qiita />
-    </div>
+      </div>
+    </Layout>
   )
 }
 

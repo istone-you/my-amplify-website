@@ -33,6 +33,12 @@ const links = [
       'All articles received "Likes" from many users!',
   },
   {
+    text: "Blog",
+    url: "/blog",
+    description:
+      'All articles received "Likes" from many users!',
+  },
+  {
     text: "About",
     url: "/about",
     description:

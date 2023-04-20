@@ -1,12 +1,15 @@
 import React from 'react'
+import Layout from '../components/layout';
 import Github from '../components/data/GitHub'
 import Seo from "../components/seo"
 
 const github = () => {
   return (
-    <div style={{margin: "20px 0"}}>
+    <Layout>
+      <div style={{ margin: "20px 0" }}>
         <Github />
-    </div>
+      </div>
+    </Layout>
   )
 }
 
