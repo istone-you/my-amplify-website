@@ -15,11 +15,8 @@
       "function": {
         "DownloadFileFromS3": {
           "deploymentBucketName": "amplify-myamplifywebsite-feature-94745-deployment",
-          "s3Key": "amplify-builds/DownloadFileFromS3-2f6a5148425967596c59-build.zip"
+          "s3Key": "amplify-builds/DownloadFileFromS3-35584a44794564316f6c-build.zip"
         }
-      },
-      "api": {
-        "myamplifywebsite": {}
       }
     }
   }
