@@ -64,6 +64,7 @@ const History = () => {
                     title="◯企業HPのサーバー構築"
                     detail={<div style={cardStyle}>
                         期間：2022年4月 ~ 2022年4月<br />
+                        職種：インフラエンジニア<br />
                         <br />
                         【概要】<br />
                         企業HPのサーバー構築<br />
