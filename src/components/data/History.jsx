@@ -25,51 +25,35 @@ const History = () => {
                 <Project
                     title="◯AWSに移行するシステムの運用設計・構築"
                     detail={<div style={cardStyle}>
-                        期間：2022年3月 ~ 現在<br />
+                        期間：2022年5月 ~ 現在<br />
+                        職種：SREエンジニア<br />
                         <br />
                         【概要】<br />
                         上司や開発グループの要望をもとに、AWSに移行後の運用設計・構築<br />
                         <br />
                         【詳細】<br />
-                        ・IPアドレスの設計<br />
+                        ・AWSにおけるネットワークやIPアドレスの設計<br />
                         ・IAMロールやセキュリティグループの設計<br />
                         ・ドメインのネームサーバーをRoute53に移管<br />
-                        ・AWSにて開発しているシステムのサーバーやネットワークの構成をTerraformを用いてコード化<br />
-                        ・TerraformをAWSのCodePipelineを利用してCI/CD運用<br />
+                        ・AWSにて開発しているシステムをTerraformとCDK(TypeScript)を用いてコード化<br />
+                        ・TerraformとCDKをAWSのCodePipelineを利用してCI/CD運用<br />
                         ・OpenTelemtry、Prometheus、Grafanaを用いたメトリクス監視の設計と構築<br />
                         ・Fluent Bit、Grafana Lokiを用いたログ監視の設計と構築<br />
-                        ・OpenTelemetry、Grafana Tempoを用いたトレース監視の設計と構築<br />
+                        ・OpenTelemetry、X-Rayを用いたトレース監視の設計と構築<br />
                         ・AWSでのセキュリティサービスの選定とOpenSearchを用いたセキュリティログの可視化<br />
-                        ・Ansibleを用いてインストールの自動化<br />
-                        ・ECSにて監視ツールを導入するためのタスク定義を作成<br />
-                        ・Systems ManagerやLambda等を用いてAWSでの運用の自動化<br />
-                        ・Serverless Frameworkを用いたLambda関数の作成<br />
-                        ・ドメイン管理を行うツールをAmplifyにて開発<br />
+                        ・Ansibleを用いたインストールの自動化<br />
+                        ・ECSにて監視ツールのDockerイメージ作成と、それを導入するためのタスク定義を作成<br />
+                        ・Systems ManagerやLambda(Python)等を用いてAWSでの運用の自動化<br />
+                        ・ドメイン管理を行うツールをAmplify(React)にて開発<br />
                         ・Apache HTTP Serverの構築とバージョンアップの対応<br />
                         ・AWS IAM Identity Centerを用いたログイン管理<br />
+                        ・LaravelアプリのCI/CD構築<br />
                         ・構築の手順書やマニュアルの作成<br />
                         <br />
                         【ポイント】<br />
                         社内にAWSに詳しい人がおらず、上司や開発グループからの要望をもとに一人で設計・構築しているため、AWSやOSSの幅広いサービスの深い知識を習得できた<br />
                         こちらの構成を紹介した記事が、はてなブックマークやQiitaでトレンド1位を獲得できた<br />
                         <a href="https://qiita.com/iStone/items/72417fe599e71e62f631" alt="【AWS】ぼくのかんがえたさいきょうの運用・監視構成" target="_blank" rel="noreferrer noopener">【AWS】ぼくのかんがえたさいきょうの運用・監視構成</a><br />
-                        <br />
-                        【人数】<br />
-                        2人<br />
-                    </div>
-                    }
-                />
-                <Project
-                    title="◯社内の管理ツール開発"
-                    detail={<div style={cardStyle}>
-                        期間：2022年5月 ~ 2022年5月<br />
-                        <br />
-                        【概要】<br />
-                        営業やカスタマーサポート等、別部署の業務を円滑に行うための顧客情報やサイトを管理するツールの開発<br />
-                        <br />
-                        【ポイント】<br />
-                        短期間で慣れないプログラミング言語を理解し、要望されていた様々な機能を実装したツールを作成<br />
-                        また、実務での開発の経験を積むことができ、今後も開発の案件を経験できることとなった<br />
                         <br />
                         【人数】<br />
                         1人<br />
@@ -80,9 +64,10 @@ const History = () => {
                     title="◯企業HPのサーバー構築"
                     detail={<div style={cardStyle}>
                         期間：2022年4月 ~ 2022年4月<br />
+                        職種：インフラエンジニア<br />
                         <br />
                         【概要】<br />
-                        他社のホームページ制作。<br />
+                        企業HPのサーバー構築<br />
                         <br />
                         【詳細】<br />
                         S3とCloudFrontを利用した静的Webサイトの構築<br />
